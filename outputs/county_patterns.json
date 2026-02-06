@@ -1,0 +1,1790 @@
+{
+  "alamance": {
+    "book_patterns": [
+      {
+        "count": 82,
+        "example": "83",
+        "pattern": "numeric",
+        "percentage": 100.0,
+        "regex": "^\\d+$"
+      }
+    ],
+    "date_range": {
+      "anomalies": [
+        "2065-10-28T21:00:00"
+      ],
+      "earliest": "1973-01-25",
+      "latest": "2025-10-20"
+    },
+    "doc_type_distribution": {
+      "ASGM DT": 3,
+      "ASSIGNMENT OF DEED OF TRUST": 1,
+      "Agreement": 1,
+      "Appointment": 1,
+      "Assignment of Deed of Trust": 4,
+      "CANCEL": 3,
+      "Consent to Grant of Easement": 1,
+      "Corporate Assignment of Deed of Trust": 1,
+      "Covenants and Restrictions": 1,
+      "D T": 6,
+      "DEED": 17,
+      "Declaration of Covenants, Conditions and Restrictions": 2,
+      "Deed": 2,
+      "Deed of Trust": 11,
+      "Easement": 4,
+      "General Warranty Deed": 3,
+      "Notice": 1,
+      "Notice of Hearing": 1,
+      "Notice of Sale": 1,
+      "PA": 1,
+      "PLAT": 2,
+      "PROPERTY TAX BILL": 1,
+      "Plat": 4,
+      "Q C": 1,
+      "Right of Way Easement": 1,
+      "SUB TR": 2,
+      "Satisfaction": 2,
+      "Special Warranty Deed": 3,
+      "Subordination Agreement": 1,
+      "Substitution of Trustee": 3,
+      "Tax Record": 1,
+      "UCC Financing Statement": 2,
+      "Warranty Deed": 1
+    },
+    "instrument_patterns": [
+      {
+        "count": 38,
+        "example": "bp4712143",
+        "pattern": "[a-z]{2}\\d{7}",
+        "percentage": 42.7,
+        "regex": "^[a-z]{2}\\d{7}$"
+      },
+      {
+        "count": 22,
+        "example": "12796",
+        "pattern": "\\d{1,5}",
+        "percentage": 24.7,
+        "regex": "^\\d{1,5}$"
+      },
+      {
+        "count": 12,
+        "example": "bp509826",
+        "pattern": "[a-z]{2}\\d{6}",
+        "percentage": 13.5,
+        "regex": "^[a-z]{2}\\d{6}$"
+      },
+      {
+        "count": 7,
+        "example": "bp09060701",
+        "pattern": "[a-z]{2}\\d{8}",
+        "percentage": 7.9,
+        "regex": "^[a-z]{2}\\d{8}$"
+      },
+      {
+        "count": 3,
+        "example": "009833350002",
+        "pattern": "\\d{10,}",
+        "percentage": 3.4,
+        "regex": "^\\d{10,}$"
+      },
+      {
+        "count": 2,
+        "example": "bp8324",
+        "pattern": "[a-z]{2}\\d{4}",
+        "percentage": 2.2,
+        "regex": "^[a-z]{2}\\d{4}$"
+      },
+      {
+        "count": 2,
+        "example": "bp84110",
+        "pattern": "[a-z]{2}\\d{5}",
+        "percentage": 2.2,
+        "regex": "^[a-z]{2}\\d{5}$"
+      },
+      {
+        "count": 1,
+        "example": "035528-000012/153082 v2",
+        "pattern": "\\d{6}\\-\\d{6}/\\d{6}\\ [a-z]{1}\\d{1}",
+        "percentage": 1.1,
+        "regex": "^\\d{6}\\-\\d{6}/\\d{6}\\ [a-z]{1}\\d{1}$"
+      },
+      {
+        "count": 1,
+        "example": "108376",
+        "pattern": "\\d{6,9}",
+        "percentage": 1.1,
+        "regex": "^\\d{6,9}$"
+      },
+      {
+        "count": 1,
+        "example": "bp67770123565",
+        "pattern": "[a-z]{2}\\d{11}",
+        "percentage": 1.1,
+        "regex": "^[a-z]{2}\\d{11}$"
+      }
+    ],
+    "record_count": 89,
+    "unique_doc_types": 33
+  },
+  "buncombe": {
+    "book_patterns": [
+      {
+        "count": 115,
+        "example": "6007",
+        "pattern": "numeric",
+        "percentage": 99.1,
+        "regex": "^\\d+$"
+      },
+      {
+        "count": 1,
+        "example": "K5551",
+        "pattern": "alpha-numeric",
+        "percentage": 0.9,
+        "regex": "^[A-Z]\\d+$"
+      }
+    ],
+    "date_range": {
+      "anomalies": [],
+      "earliest": "1973-05-17",
+      "latest": "2025-11-12"
+    },
+    "doc_type_distribution": {
+      "ASSIGNMENT": 2,
+      "ASSUMED NAME": 1,
+      "CERT TR": 1,
+      "Cancellation": 1,
+      "Certificate of Satisfaction": 2,
+      "Covenants and Restrictions": 4,
+      "DEED": 25,
+      "DEED OF TRUST": 23,
+      "DEED OF TRUST SATISFACTION": 9,
+      "Deed": 2,
+      "Deed of Trust": 6,
+      "Doing Business As Certificate": 3,
+      "EASEMENT": 3,
+      "General Warranty Deed": 2,
+      "NOTICE": 1,
+      "ORDER": 1,
+      "PLAT": 2,
+      "POWER OF ATTORNEY": 7,
+      "PRE 95 DEEDS": 1,
+      "Plat": 7,
+      "Power of Attorney": 1,
+      "Property Tax Notice": 1,
+      "QUIT CLAIM DEED": 3,
+      "Quit Claim Deed": 1,
+      "REQUEST FOR NOTICE": 2,
+      "SEE INSTRUMENT": 1,
+      "Satisfaction": 5,
+      "UCC Financing Statement": 10,
+      "Warranty Deed": 1
+    },
+    "instrument_patterns": [
+      {
+        "count": 68,
+        "example": "bp6206902",
+        "pattern": "[a-z]{2}\\d{7}",
+        "percentage": 52.3,
+        "regex": "^[a-z]{2}\\d{7}$"
+      },
+      {
+        "count": 36,
+        "example": "bp60071122",
+        "pattern": "[a-z]{2}\\d{8}",
+        "percentage": 27.7,
+        "regex": "^[a-z]{2}\\d{8}$"
+      },
+      {
+        "count": 12,
+        "example": "bp790583",
+        "pattern": "[a-z]{2}\\d{6}",
+        "percentage": 9.2,
+        "regex": "^[a-z]{2}\\d{6}$"
+      },
+      {
+        "count": 4,
+        "example": "bp3672",
+        "pattern": "[a-z]{2}\\d{4}",
+        "percentage": 3.1,
+        "regex": "^[a-z]{2}\\d{4}$"
+      },
+      {
+        "count": 4,
+        "example": "023202190002",
+        "pattern": "\\d{10,}",
+        "percentage": 3.1,
+        "regex": "^\\d{10,}$"
+      },
+      {
+        "count": 3,
+        "example": "bp16963",
+        "pattern": "[a-z]{2}\\d{5}",
+        "percentage": 2.3,
+        "regex": "^[a-z]{2}\\d{5}$"
+      },
+      {
+        "count": 2,
+        "example": "20220062162E",
+        "pattern": "\\d{11}[A-Z]{1}",
+        "percentage": 1.5,
+        "regex": "^\\d{11}[A-Z]{1}$"
+      },
+      {
+        "count": 1,
+        "example": "7481033",
+        "pattern": "\\d{6,9}",
+        "percentage": 0.8,
+        "regex": "^\\d{6,9}$"
+      }
+    ],
+    "record_count": 130,
+    "unique_doc_types": 29
+  },
+  "cabarrus": {
+    "book_patterns": [
+      {
+        "count": 398,
+        "example": "461",
+        "pattern": "numeric",
+        "percentage": 100.0,
+        "regex": "^\\d+$"
+      }
+    ],
+    "date_range": {
+      "anomalies": [
+        "0390-03-24T19:17:15"
+      ],
+      "earliest": "1970-08-30",
+      "latest": "2025-08-19"
+    },
+    "doc_type_distribution": {
+      "AFDVT": 1,
+      "AGRMT": 2,
+      "AMEND": 3,
+      "ASIGN": 15,
+      "Affidavit": 2,
+      "Agreement for Deed": 1,
+      "Amendment": 4,
+      "Assignment of Deed of Trust": 4,
+      "C-SAT": 8,
+      "CERT": 1,
+      "Certificate of Trust": 2,
+      "Complaint": 1,
+      "Correction Assignment of Deed of Trust": 1,
+      "Court Order": 1,
+      "Covenants and Restrictions": 5,
+      "D-REL": 1,
+      "D-TR": 45,
+      "DECL": 2,
+      "DEED": 45,
+      "Declaration": 1,
+      "Declaration of Covenants, Conditions, Restrictions and Easements": 2,
+      "Declaration of Restrictions": 1,
+      "Deed": 12,
+      "Deed of Trust": 15,
+      "Doing Business As Certificate": 1,
+      "EASE": 7,
+      "Easement": 8,
+      "Federal Tax Lien": 1,
+      "Foreclosure Deed": 1,
+      "General Warranty Deed": 14,
+      "JUDG": 2,
+      "Judgment": 1,
+      "L-POA": 1,
+      "LEASE": 1,
+      "Life Estate Deed": 2,
+      "MEMO": 3,
+      "MOD-A": 1,
+      "MTGE": 21,
+      "N-FOR": 1,
+      "N-SAT": 1,
+      "NOT": 2,
+      "Notice of Bankruptcy": 4,
+      "Notice of Foreclosure": 1,
+      "ORDER": 3,
+      "PLAT": 16,
+      "POA": 5,
+      "Plat": 10,
+      "Power of Attorney": 2,
+      "Purchase Money Deed of Trust": 1,
+      "QC-D": 1,
+      "Quit Claim Deed": 1,
+      "R-POA": 1,
+      "R-WAY": 5,
+      "REQ": 7,
+      "REST": 37,
+      "Right of Way": 5,
+      "Right of Way Agreement": 3,
+      "Right of Way and Easement": 1,
+      "SAT": 27,
+      "SUB-A": 2,
+      "SUB-T": 5,
+      "SUPPL": 1,
+      "Satisfaction": 8,
+      "Scrivener's Affidavit": 1,
+      "Separation Agreement": 1,
+      "Special Warranty Deed": 2,
+      "Substitute Trustee's Deed": 2,
+      "Substitution of Trustee": 1,
+      "TR-D": 3,
+      "UCC": 6,
+      "UCC Financing Statement": 2,
+      "Warranty Deed": 2
+    },
+    "instrument_patterns": [
+      {
+        "count": 282,
+        "example": "1983-02828",
+        "pattern": "\\d{4}-\\d{5,7}",
+        "percentage": 68.9,
+        "regex": "^\\d{4}-\\d{5,7}$"
+      },
+      {
+        "count": 52,
+        "example": "20938",
+        "pattern": "\\d{1,5}",
+        "percentage": 12.7,
+        "regex": "^\\d{1,5}$"
+      },
+      {
+        "count": 23,
+        "example": "bp490575",
+        "pattern": "[a-z]{2}\\d{6}",
+        "percentage": 5.6,
+        "regex": "^[a-z]{2}\\d{6}$"
+      },
+      {
+        "count": 19,
+        "example": "bp9952806",
+        "pattern": "[a-z]{2}\\d{7}",
+        "percentage": 4.6,
+        "regex": "^[a-z]{2}\\d{7}$"
+      },
+      {
+        "count": 10,
+        "example": "bp17476260",
+        "pattern": "[a-z]{2}\\d{8}",
+        "percentage": 2.4,
+        "regex": "^[a-z]{2}\\d{8}$"
+      },
+      {
+        "count": 6,
+        "example": "bp43555",
+        "pattern": "[a-z]{2}\\d{5}",
+        "percentage": 1.5,
+        "regex": "^[a-z]{2}\\d{5}$"
+      },
+      {
+        "count": 5,
+        "example": "bp1810",
+        "pattern": "[a-z]{2}\\d{4}",
+        "percentage": 1.2,
+        "regex": "^[a-z]{2}\\d{4}$"
+      },
+      {
+        "count": 2,
+        "example": "25CV004518-770",
+        "pattern": "\\d{2}[A-Z]{2}\\d{6}\\-\\d{3}",
+        "percentage": 0.5,
+        "regex": "^\\d{2}[A-Z]{2}\\d{6}\\-\\d{3}$"
+      },
+      {
+        "count": 2,
+        "example": "bp397",
+        "pattern": "[a-z]{2}\\d{3}",
+        "percentage": 0.5,
+        "regex": "^[a-z]{2}\\d{3}$"
+      },
+      {
+        "count": 1,
+        "example": "bp464FAGE",
+        "pattern": "[a-z]{2}\\d{3}[A-Z]{4}",
+        "percentage": 0.2,
+        "regex": "^[a-z]{2}\\d{3}[A-Z]{4}$"
+      },
+      {
+        "count": 1,
+        "example": "5154 0176",
+        "pattern": "\\d{4}\\ \\d{4}",
+        "percentage": 0.2,
+        "regex": "^\\d{4}\\ \\d{4}$"
+      },
+      {
+        "count": 1,
+        "example": "96-1203.01",
+        "pattern": "\\d{2}\\-\\d{4}\\.\\d{2}",
+        "percentage": 0.2,
+        "regex": "^\\d{2}\\-\\d{4}\\.\\d{2}$"
+      },
+      {
+        "count": 1,
+        "example": "024983",
+        "pattern": "\\d{6,9}",
+        "percentage": 0.2,
+        "regex": "^\\d{6,9}$"
+      },
+      {
+        "count": 1,
+        "example": "6732300K",
+        "pattern": "\\d{7}[A-Z]{1}",
+        "percentage": 0.2,
+        "regex": "^\\d{7}[A-Z]{1}$"
+      },
+      {
+        "count": 1,
+        "example": "19M000359-000",
+        "pattern": "\\d{2}[A-Z]{1}\\d{6}\\-\\d{3}",
+        "percentage": 0.2,
+        "regex": "^\\d{2}[A-Z]{1}\\d{6}\\-\\d{3}$"
+      },
+      {
+        "count": 1,
+        "example": "13729 0336",
+        "pattern": "\\d{5}\\ \\d{4}",
+        "percentage": 0.2,
+        "regex": "^\\d{5}\\ \\d{4}$"
+      },
+      {
+        "count": 1,
+        "example": "1728802109",
+        "pattern": "\\d{10,}",
+        "percentage": 0.2,
+        "regex": "^\\d{10,}$"
+      }
+    ],
+    "record_count": 409,
+    "unique_doc_types": 72
+  },
+  "cumberland": {
+    "book_patterns": [
+      {
+        "count": 999,
+        "example": "7499",
+        "pattern": "numeric",
+        "percentage": 99.9,
+        "regex": "^\\d+$"
+      },
+      {
+        "count": 1,
+        "example": "33-3006",
+        "pattern": "numeric-range",
+        "percentage": 0.1,
+        "regex": "^\\d+-\\d+$"
+      }
+    ],
+    "date_range": {
+      "anomalies": [
+        "0050-09-22T19:17:15",
+        "2238-04-25T20:00:00",
+        "1312-11-25T19:17:15",
+        "2057-08-11T20:00:00",
+        "1396-09-03T00:37:15",
+        "2158-11-30T21:00:00",
+        "0302-08-13T19:17:15"
+      ],
+      "earliest": "1970-06-07",
+      "latest": "2025-10-27"
+    },
+    "doc_type_distribution": {
+      "A NAME": 7,
+      "ADM NOTICE": 1,
+      "AFDVT": 23,
+      "AGMT": 15,
+      "AMD AGMT": 1,
+      "AMD COV": 7,
+      "ASGMT": 19,
+      "Agreement": 2,
+      "Amendment and Declaration of Restrictions": 1,
+      "Articles of Incorporation": 2,
+      "Assignment of Deed of Trust": 2,
+      "B L AGMT": 1,
+      "BS & ASGMT": 1,
+      "C C SUSPEN": 1,
+      "CAN": 67,
+      "CERT": 1,
+      "CMS D": 4,
+      "CONT": 2,
+      "CONTRACT": 2,
+      "CORR D": 12,
+      "CORR D T": 2,
+      "CORR DEED": 2,
+      "CORR DT": 3,
+      "CORR TRS D": 2,
+      "COV": 21,
+      "Cancellation": 2,
+      "Certificate of Satisfaction": 3,
+      "Construction Deed of Trust": 1,
+      "Correction Deed": 2,
+      "Covenants and Restrictions": 25,
+      "D & REL": 7,
+      "D T": 95,
+      "D T ADDTN": 1,
+      "D/&REL": 1,
+      "DECL": 2,
+      "DEED": 1192,
+      "DEED & REL": 6,
+      "DEED&ESMT": 1,
+      "DT": 250,
+      "Declaration of Condominium": 1,
+      "Declaration of Restrictions": 1,
+      "Deed": 2,
+      "Deed of Release": 1,
+      "Deed of Trust": 16,
+      "Deed of Trust (Construction) with Assignment of Leases and Rents, Fixture Filing, and Security Agreement": 1,
+      "ESMT": 52,
+      "ESMT D": 6,
+      "ESMT DEED": 1,
+      "Easement": 11,
+      "FC": 30,
+      "General Warranty Deed": 7,
+      "JDGMT": 1,
+      "LIEN": 1,
+      "MEMO": 14,
+      "MEMO ACT": 7,
+      "MODIF AGMT": 8,
+      "MODIF COV": 1,
+      "MTG": 1,
+      "Modification": 4,
+      "NOTICE": 2,
+      "Notice of Default": 1,
+      "Notice of Foreclosure": 1,
+      "OPTION": 2,
+      "ORDER": 2,
+      "ORDIN": 1,
+      "P A": 6,
+      "PA": 13,
+      "PLAT": 54,
+      "Partial Release": 1,
+      "Plat": 14,
+      "Power of Attorney": 5,
+      "QCD": 22,
+      "R W": 1,
+      "REL": 22,
+      "REL D": 65,
+      "RELEASE": 2,
+      "REQ": 15,
+      "REQUEST": 9,
+      "RW": 4,
+      "Release": 3,
+      "Release/Revoke/Satisfy/Terminate": 1,
+      "Request for Notification of Default and Sale": 1,
+      "SAT": 102,
+      "SEE INST": 1,
+      "SUB AGMT": 1,
+      "SUB D": 20,
+      "SUB TR": 76,
+      "Satisfaction": 10,
+      "Scrivener's Affidavit": 1,
+      "Special Warranty Deed": 1,
+      "Subordination Agreement": 1,
+      "Substitution of Trustee": 3,
+      "Supplemental Declaration": 1,
+      "TIM D": 7,
+      "TRS D": 37,
+      "UCC Financing Statement": 2,
+      "WDRAW COV": 1,
+      "WDRAW ESMT": 1,
+      "WDRAW&COV": 1,
+      "Warranty Deed": 11
+    },
+    "instrument_patterns": [
+      {
+        "count": 2336,
+        "example": "2007-06494",
+        "pattern": "\\d{4}-\\d{5,7}",
+        "percentage": 94.2,
+        "regex": "^\\d{4}-\\d{5,7}$"
+      },
+      {
+        "count": 53,
+        "example": "bp2868165",
+        "pattern": "[a-z]{2}\\d{7}",
+        "percentage": 2.1,
+        "regex": "^[a-z]{2}\\d{7}$"
+      },
+      {
+        "count": 29,
+        "example": "39919",
+        "pattern": "\\d{1,5}",
+        "percentage": 1.2,
+        "regex": "^\\d{1,5}$"
+      },
+      {
+        "count": 28,
+        "example": "bp58940577",
+        "pattern": "[a-z]{2}\\d{8}",
+        "percentage": 1.1,
+        "regex": "^[a-z]{2}\\d{8}$"
+      },
+      {
+        "count": 8,
+        "example": "bp996466",
+        "pattern": "[a-z]{2}\\d{6}",
+        "percentage": 0.3,
+        "regex": "^[a-z]{2}\\d{6}$"
+      },
+      {
+        "count": 7,
+        "example": "bp3522",
+        "pattern": "[a-z]{2}\\d{4}",
+        "percentage": 0.3,
+        "regex": "^[a-z]{2}\\d{4}$"
+      },
+      {
+        "count": 3,
+        "example": "bp111650037",
+        "pattern": "[a-z]{2}\\d{9}",
+        "percentage": 0.1,
+        "regex": "^[a-z]{2}\\d{9}$"
+      },
+      {
+        "count": 3,
+        "example": "bp25184",
+        "pattern": "[a-z]{2}\\d{5}",
+        "percentage": 0.1,
+        "regex": "^[a-z]{2}\\d{5}$"
+      },
+      {
+        "count": 2,
+        "example": "1136401538",
+        "pattern": "\\d{10,}",
+        "percentage": 0.1,
+        "regex": "^\\d{10,}$"
+      },
+      {
+        "count": 1,
+        "example": "20220173191K",
+        "pattern": "\\d{11}[A-Z]{1}",
+        "percentage": 0.0,
+        "regex": "^\\d{11}[A-Z]{1}$"
+      },
+      {
+        "count": 1,
+        "example": "BK7242PG572",
+        "pattern": "[A-Z]{2}\\d{4}[A-Z]{2}\\d{3}",
+        "percentage": 0.0,
+        "regex": "^[A-Z]{2}\\d{4}[A-Z]{2}\\d{3}$"
+      },
+      {
+        "count": 1,
+        "example": "1961-08660187",
+        "pattern": "\\d{4}\\-\\d{8}",
+        "percentage": 0.0,
+        "regex": "^\\d{4}\\-\\d{8}$"
+      },
+      {
+        "count": 1,
+        "example": "bp33-300624",
+        "pattern": "[a-z]{2}\\d{2}\\-\\d{6}",
+        "percentage": 0.0,
+        "regex": "^[a-z]{2}\\d{2}\\-\\d{6}$"
+      },
+      {
+        "count": 1,
+        "example": "19671015/",
+        "pattern": "\\d{8}/",
+        "percentage": 0.0,
+        "regex": "^\\d{8}/$"
+      },
+      {
+        "count": 1,
+        "example": "bpAM",
+        "pattern": "[A-Za-z]{4}",
+        "percentage": 0.0,
+        "regex": "^[A-Za-z]{4}$"
+      },
+      {
+        "count": 1,
+        "example": "BK 3592PG0595",
+        "pattern": "[A-Z]{2}\\ \\d{4}[A-Z]{2}\\d{4}",
+        "percentage": 0.0,
+        "regex": "^[A-Z]{2}\\ \\d{4}[A-Z]{2}\\d{4}$"
+      },
+      {
+        "count": 1,
+        "example": "bp96",
+        "pattern": "[a-z]{2}\\d{2}",
+        "percentage": 0.0,
+        "regex": "^[a-z]{2}\\d{2}$"
+      },
+      {
+        "count": 1,
+        "example": "1986-7388J",
+        "pattern": "\\d{4}\\-\\d{4}[A-Z]{1}",
+        "percentage": 0.0,
+        "regex": "^\\d{4}\\-\\d{4}[A-Z]{1}$"
+      },
+      {
+        "count": 1,
+        "example": "BK4630PG0547",
+        "pattern": "[A-Z]{2}\\d{4}[A-Z]{2}\\d{4}",
+        "percentage": 0.0,
+        "regex": "^[A-Z]{2}\\d{4}[A-Z]{2}\\d{4}$"
+      }
+    ],
+    "record_count": 2479,
+    "unique_doc_types": 100
+  },
+  "davidson": {
+    "book_patterns": [
+      {
+        "count": 23,
+        "example": "2564",
+        "pattern": "numeric",
+        "percentage": 100.0,
+        "regex": "^\\d+$"
+      }
+    ],
+    "date_range": {
+      "anomalies": [],
+      "earliest": "2000-05-18",
+      "latest": "2025-06-18"
+    },
+    "doc_type_distribution": {
+      "CAN/LIEN": 1,
+      "D/T": 3,
+      "DE": 5,
+      "DEED": 6,
+      "DEED OF TRUST": 1,
+      "LIEN": 1,
+      "PLAT": 1,
+      "Plat": 1,
+      "SAT": 3,
+      "SATISFACTION": 1
+    },
+    "instrument_patterns": [
+      {
+        "count": 22,
+        "example": "2022019327",
+        "pattern": "\\d{10,}",
+        "percentage": 95.7,
+        "regex": "^\\d{10,}$"
+      },
+      {
+        "count": 1,
+        "example": "bp512",
+        "pattern": "[a-z]{2}\\d{3}",
+        "percentage": 4.3,
+        "regex": "^[a-z]{2}\\d{3}$"
+      }
+    ],
+    "record_count": 23,
+    "unique_doc_types": 10
+  },
+  "durham": {
+    "book_patterns": [
+      {
+        "count": 489,
+        "example": "6426",
+        "pattern": "numeric",
+        "percentage": 100.0,
+        "regex": "^\\d+$"
+      }
+    ],
+    "date_range": {
+      "anomalies": [],
+      "earliest": "1971-03-07",
+      "latest": "2025-11-11"
+    },
+    "doc_type_distribution": {
+      "AFFIDAVIT": 4,
+      "AGREEMENT": 4,
+      "AMENDMENT": 4,
+      "ASSIGNMENT": 7,
+      "ASSUMED NAME": 3,
+      "Amendment": 2,
+      "Annexation": 1,
+      "Assignment": 2,
+      "Assignment of Deed of Trust": 2,
+      "Covenants and Restrictions": 2,
+      "DECLARATION": 8,
+      "DEED": 253,
+      "DEED OF TRUST": 44,
+      "Declaration": 2,
+      "Declaration of Covenants, Conditions and Restrictions": 3,
+      "Declaration of Covenants, Conditions, Restrictions, Easements, Charges and Liens (Amended and Restated)": 1,
+      "Deed of Trust": 4,
+      "EASEMENT": 5,
+      "Easement": 8,
+      "General Warranty Deed": 2,
+      "MEMORANDUM": 1,
+      "Memorandum of Option Agreement": 2,
+      "NOTICE": 3,
+      "Notice": 1,
+      "ORDINANCE": 1,
+      "PLAT": 36,
+      "POWER OF ATTORNEY": 4,
+      "Plat": 26,
+      "RIGHT OF WAY": 9,
+      "SATISFACTION": 25,
+      "SEE INSTRUMENT": 6,
+      "SUBSTITUTE TRUSTEE": 5,
+      "Special Warranty Deed": 4,
+      "Stormwater Facility Agreement and Covenants": 1,
+      "Substitute Trustee's Deed": 1,
+      "Survey Recording Sheet": 1,
+      "UNIFORM COMMERCIAL CODE": 3,
+      "Warranty Deed": 1
+    },
+    "instrument_patterns": [
+      {
+        "count": 462,
+        "example": "2010005608",
+        "pattern": "\\d{10,}",
+        "percentage": 94.1,
+        "regex": "^\\d{10,}$"
+      },
+      {
+        "count": 17,
+        "example": "99015437",
+        "pattern": "\\d{6,9}",
+        "percentage": 3.5,
+        "regex": "^\\d{6,9}$"
+      },
+      {
+        "count": 7,
+        "example": "bp136165",
+        "pattern": "[a-z]{2}\\d{6}",
+        "percentage": 1.4,
+        "regex": "^[a-z]{2}\\d{6}$"
+      },
+      {
+        "count": 2,
+        "example": "bp2604347",
+        "pattern": "[a-z]{2}\\d{7}",
+        "percentage": 0.4,
+        "regex": "^[a-z]{2}\\d{7}$"
+      },
+      {
+        "count": 1,
+        "example": "bp1952002679",
+        "pattern": "[a-z]{2}\\d{10}",
+        "percentage": 0.2,
+        "regex": "^[a-z]{2}\\d{10}$"
+      },
+      {
+        "count": 1,
+        "example": "bp4174",
+        "pattern": "[a-z]{2}\\d{4}",
+        "percentage": 0.2,
+        "regex": "^[a-z]{2}\\d{4}$"
+      },
+      {
+        "count": 1,
+        "example": "bp142190-192",
+        "pattern": "[a-z]{2}\\d{6}\\-\\d{3}",
+        "percentage": 0.2,
+        "regex": "^[a-z]{2}\\d{6}\\-\\d{3}$"
+      }
+    ],
+    "record_count": 491,
+    "unique_doc_types": 38
+  },
+  "forsyth": {
+    "book_patterns": [
+      {
+        "count": 964,
+        "example": "1489",
+        "pattern": "numeric",
+        "percentage": 100.0,
+        "regex": "^\\d+$"
+      }
+    ],
+    "date_range": {
+      "anomalies": [
+        "0814-08-08T19:17:15"
+      ],
+      "earliest": "1972-11-30",
+      "latest": "2025-12-18"
+    },
+    "doc_type_distribution": {
+      "AGMT": 12,
+      "AMEND DECLA": 1,
+      "ASGMT": 27,
+      "ASSIGNMENT": 5,
+      "ASSIGNMENT RENT": 2,
+      "CERT OF SAT": 3,
+      "CERTIFICATE OF SATISFACTION": 1,
+      "CONDO": 14,
+      "CONSENT": 2,
+      "CONT CONVY": 7,
+      "COREC DECL": 1,
+      "CORP": 1,
+      "Certificate of Satisfaction": 1,
+      "D OF T": 78,
+      "D/T": 4,
+      "DECL CONDO": 2,
+      "DECLA CONDO": 5,
+      "DECLARATION & CORPORATION": 1,
+      "DECLARATION OF CONDOMINIUM": 1,
+      "DEDICATION": 16,
+      "DEED": 306,
+      "DEED ACEPT": 22,
+      "DEED ESMT": 8,
+      "DEED OF TRUST": 25,
+      "Declaration of Restrictions": 1,
+      "Deed of Trust": 3,
+      "ESMT": 4,
+      "ESMT AGMT": 1,
+      "F S": 11,
+      "General Warranty Deed": 1,
+      "MODIF AGMT": 10,
+      "MODIFICATION AGREEMENT": 2,
+      "MORTGAGE": 2,
+      "NOTICE": 3,
+      "NOTICE OF FORECLOSURE": 2,
+      "NOTICE SAT": 1,
+      "P/A": 1,
+      "PART": 3,
+      "PERMIT": 1,
+      "PETITION": 1,
+      "PLAT": 51,
+      "POWER OF ATTORNEY": 3,
+      "Plat": 2,
+      "Q C D": 12,
+      "QUITCLAIM DEED": 2,
+      "R FOR N": 5,
+      "R/W": 10,
+      "REL DEED": 223,
+      "RESTR COV": 16,
+      "RESTR COVS": 3,
+      "RESTRI COV": 1,
+      "RESTRICTIVE COVENANTS": 1,
+      "SAT": 1,
+      "SAT D OF T": 1,
+      "SATISFACTION": 19,
+      "SRS": 1,
+      "STATEMENT": 2,
+      "SUB TR": 4,
+      "SUBORD JOINR": 1,
+      "SUBORD RESTR": 1,
+      "SUBSTITUTE TRUSTEE": 5,
+      "Survey Recording Sheet": 1,
+      "TRUSTEE DEED": 2
+    },
+    "instrument_patterns": [
+      {
+        "count": 959,
+        "example": "1985013199",
+        "pattern": "\\d{10,}",
+        "percentage": 99.3,
+        "regex": "^\\d{10,}$"
+      },
+      {
+        "count": 3,
+        "example": "bp34177",
+        "pattern": "[a-z]{2}\\d{5}",
+        "percentage": 0.3,
+        "regex": "^[a-z]{2}\\d{5}$"
+      },
+      {
+        "count": 2,
+        "example": "bp156480",
+        "pattern": "[a-z]{2}\\d{6}",
+        "percentage": 0.2,
+        "regex": "^[a-z]{2}\\d{6}$"
+      },
+      {
+        "count": 1,
+        "example": "bp1443932",
+        "pattern": "[a-z]{2}\\d{7}",
+        "percentage": 0.1,
+        "regex": "^[a-z]{2}\\d{7}$"
+      },
+      {
+        "count": 1,
+        "example": "bp3311",
+        "pattern": "[a-z]{2}\\d{4}",
+        "percentage": 0.1,
+        "regex": "^[a-z]{2}\\d{4}$"
+      }
+    ],
+    "record_count": 966,
+    "unique_doc_types": 63
+  },
+  "guilford": {
+    "book_patterns": [
+      {
+        "count": 14,
+        "example": "6004",
+        "pattern": "numeric",
+        "percentage": 100.0,
+        "regex": "^\\d+$"
+      }
+    ],
+    "date_range": {
+      "anomalies": [],
+      "earliest": "1999-07-11",
+      "latest": "2024-02-04"
+    },
+    "doc_type_distribution": {
+      "DEED": 3,
+      "DT": 2,
+      "PLAT": 1,
+      "Plat": 1,
+      "R": 7
+    },
+    "instrument_patterns": [
+      {
+        "count": 13,
+        "example": "2003147307",
+        "pattern": "\\d{10,}",
+        "percentage": 92.9,
+        "regex": "^\\d{10,}$"
+      },
+      {
+        "count": 1,
+        "example": "bp17840",
+        "pattern": "[a-z]{2}\\d{5}",
+        "percentage": 7.1,
+        "regex": "^[a-z]{2}\\d{5}$"
+      }
+    ],
+    "record_count": 14,
+    "unique_doc_types": 5
+  },
+  "johnston": {
+    "book_patterns": [
+      {
+        "count": 1000,
+        "example": "6236",
+        "pattern": "numeric",
+        "percentage": 100.0,
+        "regex": "^\\d+$"
+      }
+    ],
+    "date_range": {
+      "anomalies": [],
+      "earliest": "1873-05-06",
+      "latest": "2025-09-30"
+    },
+    "doc_type_distribution": {
+      "AFFIDAVIT": 24,
+      "AGREEMENT": 12,
+      "ASSIGNMENT": 79,
+      "ASSUMED NAME": 7,
+      "Appointment": 1,
+      "CERTIFICATE": 3,
+      "CORRECTIVE/SCRIVENERS AFFIDAVIT": 7,
+      "COVENANT/RESTRICTED COVENANTS": 10,
+      "DECLARATION": 5,
+      "DEED": 532,
+      "DEED OF TRUST": 636,
+      "Deed": 3,
+      "Deed of Trust": 3,
+      "EASEMENT": 32,
+      "General Warranty Deed": 1,
+      "Historical": 41,
+      "JUDGMENT": 3,
+      "MEMORANDUM": 5,
+      "MODIFICATION": 21,
+      "MORTGAGE": 2,
+      "NOTICE": 23,
+      "ORDINANCE": 3,
+      "PARTIAL RELEASE": 85,
+      "PLAT": 25,
+      "POWER OF ATTORNEY": 11,
+      "Plat": 3,
+      "Power of Attorney": 1,
+      "RELEASE": 96,
+      "RESIGNATION": 1,
+      "REVOCATION": 1,
+      "RIGHT OF WAY": 4,
+      "Resignation of Substitute Trustee": 1,
+      "SATISFACTION": 539,
+      "SEE INSTRUMENT": 139,
+      "SUBORDINATION": 9,
+      "SUBSTITUTION TRUSTEE": 91,
+      "Substitution of Trustee": 1,
+      "TRUSTEES DEED": 12,
+      "UCC Financing Statement": 2,
+      "UNIFORM COMMERCIAL CODE": 18,
+      "Warranty Deed": 1
+    },
+    "instrument_patterns": [
+      {
+        "count": 2206,
+        "example": "2022806081",
+        "pattern": "\\d{10,}",
+        "percentage": 88.5,
+        "regex": "^\\d{10,}$"
+      },
+      {
+        "count": 274,
+        "example": "1692218",
+        "pattern": "\\d{6,9}",
+        "percentage": 11.0,
+        "regex": "^\\d{6,9}$"
+      },
+      {
+        "count": 4,
+        "example": "bp1962317",
+        "pattern": "[a-z]{2}\\d{7}",
+        "percentage": 0.2,
+        "regex": "^[a-z]{2}\\d{7}$"
+      },
+      {
+        "count": 3,
+        "example": "bp21125",
+        "pattern": "[a-z]{2}\\d{5}",
+        "percentage": 0.1,
+        "regex": "^[a-z]{2}\\d{5}$"
+      },
+      {
+        "count": 2,
+        "example": "20200113743E",
+        "pattern": "\\d{11}[A-Z]{1}",
+        "percentage": 0.1,
+        "regex": "^\\d{11}[A-Z]{1}$"
+      },
+      {
+        "count": 2,
+        "example": "bp470628",
+        "pattern": "[a-z]{2}\\d{6}",
+        "percentage": 0.1,
+        "regex": "^[a-z]{2}\\d{6}$"
+      },
+      {
+        "count": 1,
+        "example": "19426",
+        "pattern": "\\d{1,5}",
+        "percentage": 0.0,
+        "regex": "^\\d{1,5}$"
+      },
+      {
+        "count": 1,
+        "example": "bp8984",
+        "pattern": "[a-z]{2}\\d{4}",
+        "percentage": 0.0,
+        "regex": "^[a-z]{2}\\d{4}$"
+      }
+    ],
+    "record_count": 2493,
+    "unique_doc_types": 41
+  },
+  "mecklenburg": {
+    "book_patterns": [
+      {
+        "count": 1000,
+        "example": "38254",
+        "pattern": "numeric",
+        "percentage": 100.0,
+        "regex": "^\\d+$"
+      }
+    ],
+    "date_range": {
+      "anomalies": [],
+      "earliest": "1972-04-05",
+      "latest": "2025-12-03"
+    },
+    "doc_type_distribution": {
+      "ACKNOWLEDGEMENT": 3,
+      "AFFIDAVIT": 43,
+      "AGREEMENT": 4,
+      "AMENDMENT": 6,
+      "ASSIGNMENT": 50,
+      "ASSUMED NAME": 6,
+      "Administrative Notice": 1,
+      "Agreement": 4,
+      "Amendment": 8,
+      "Amendment to Declaration of Covenants, Conditions and Restrictions": 1,
+      "Appointment of Substitute Trustee": 1,
+      "Articles of Incorporation": 1,
+      "Assignment": 1,
+      "Assignment of Deed of Trust": 8,
+      "BYLAWS": 1,
+      "By-Laws": 1,
+      "CAN": 71,
+      "COMMISSIONERS DEED": 101,
+      "CONDO": 1,
+      "CORRECTED DEED": 7,
+      "COVENANT": 2,
+      "Certificate of Satisfaction": 3,
+      "Commissioner's Deed": 1,
+      "Correction Agreement Limited Power of Attorney": 1,
+      "Correction Deed": 2,
+      "Covenants and Restrictions": 4,
+      "DECLARATION UNIT OWNERSHIP": 5,
+      "DEED": 437,
+      "DEED OF TRUST": 397,
+      "Declaration": 2,
+      "Declaration of Covenants and Restrictions": 1,
+      "Declaration of Covenants, Conditions and Restrictions": 6,
+      "Declaration of Restrictions": 2,
+      "Deed": 6,
+      "Deed of Trust": 25,
+      "Deed of Trust, Assignment of Rents and Fixture Filing": 1,
+      "Doing Business As Certificate": 1,
+      "EASEMENT": 14,
+      "ERECORD UCC AMENDMENT": 1,
+      "ERECORD UCC ORIGINAL": 1,
+      "Easement": 7,
+      "FORECLOSURE": 94,
+      "Final Judgment": 1,
+      "Foreclosure Deed": 1,
+      "Gas, Oil, or Mineral Deed": 1,
+      "General Warranty Deed": 12,
+      "JUDGMENT": 5,
+      "LEASE": 1,
+      "LIMITED PARTNERSHIP": 1,
+      "MAP": 250,
+      "MAP/R": 205,
+      "MEMORANDUM": 2,
+      "MODIFICATION": 1,
+      "MODIFICATION AGREEMENT": 15,
+      "MORTGAGE": 2,
+      "Memorandum of Agreement": 1,
+      "Merger Documents": 1,
+      "NOTICE": 1,
+      "NOTICE OF REQUEST": 23,
+      "North Carolina General Warranty Deed": 1,
+      "Notice": 1,
+      "Notice of Foreclosure": 2,
+      "Notice of Sale": 3,
+      "ORDINANCE": 1,
+      "PARTIAL RELEASE": 16,
+      "POWER OF ATTORNEY": 54,
+      "PRE A D REST": 1,
+      "PRE A N": 3,
+      "PRE COR D/T": 2,
+      "PRE COR DEED": 1,
+      "PRE D/T": 13,
+      "PRE DEC REST": 2,
+      "PRE DEC UNIT": 1,
+      "PRE DEED": 25,
+      "PRE DIS PTNR": 2,
+      "PRE MAP": 1,
+      "PRE P/A": 3,
+      "PRE REL": 1,
+      "PRE REQ NOTC": 2,
+      "PRE SATISFAC": 2,
+      "PRE SUBORDN": 1,
+      "PRE SUPL RES": 1,
+      "Plat": 24,
+      "Power of Attorney": 6,
+      "Purchase Money Deed of Trust": 1,
+      "QCD": 17,
+      "Quit Claim Deed": 1,
+      "REGISTER OF DEEDS CORRECTION": 4,
+      "RELEASE": 6,
+      "RESIGNATION OF TRUSTEE": 3,
+      "RESTRICTED COVENANTS": 1,
+      "RESTRICTIONS": 32,
+      "REVOCATION OF POWER OF ATTORNE": 2,
+      "RIGHT OF WAY": 5,
+      "Release": 2,
+      "Restriction": 10,
+      "Restrictions": 54,
+      "Revocation": 1,
+      "SATISFACTION - CERTIFICATE OF": 119,
+      "SUBORDINATION OR RESUB AGREEME": 6,
+      "SUBSTITUTION TRUSTEE": 74,
+      "SUPPLEMENTAL DEED OF TRUST": 1,
+      "Satisfaction": 9,
+      "Scrivener's Affidavit": 1,
+      "Special Warranty Deed": 3,
+      "Special Warranty Deed and Bill of Sale": 1,
+      "Substitution of Trustee": 2,
+      "TRUSTEES DEED": 62,
+      "Trustee's Deed": 1,
+      "UCC AMENDMENT": 22,
+      "UCC Financing Statement": 2,
+      "UCC ORIGINAL": 11,
+      "UNK": 1,
+      "VARIANCE": 1,
+      "Warranty Deed": 11
+    },
+    "instrument_patterns": [
+      {
+        "count": 2224,
+        "example": "2023067542",
+        "pattern": "\\d{10,}",
+        "percentage": 89.3,
+        "regex": "^\\d{10,}$"
+      },
+      {
+        "count": 179,
+        "example": "96140024",
+        "pattern": "\\d{6,9}",
+        "percentage": 7.2,
+        "regex": "^\\d{6,9}$"
+      },
+      {
+        "count": 30,
+        "example": "bp19923785",
+        "pattern": "[a-z]{2}\\d{8}",
+        "percentage": 1.2,
+        "regex": "^[a-z]{2}\\d{8}$"
+      },
+      {
+        "count": 23,
+        "example": "bp8309199",
+        "pattern": "[a-z]{2}\\d{7}",
+        "percentage": 0.9,
+        "regex": "^[a-z]{2}\\d{7}$"
+      },
+      {
+        "count": 13,
+        "example": "bp71231",
+        "pattern": "[a-z]{2}\\d{5}",
+        "percentage": 0.5,
+        "regex": "^[a-z]{2}\\d{5}$"
+      },
+      {
+        "count": 9,
+        "example": "bp099340881",
+        "pattern": "[a-z]{2}\\d{9}",
+        "percentage": 0.4,
+        "regex": "^[a-z]{2}\\d{9}$"
+      },
+      {
+        "count": 5,
+        "example": "bp282992",
+        "pattern": "[a-z]{2}\\d{6}",
+        "percentage": 0.2,
+        "regex": "^[a-z]{2}\\d{6}$"
+      },
+      {
+        "count": 4,
+        "example": "bp2321",
+        "pattern": "[a-z]{2}\\d{4}",
+        "percentage": 0.2,
+        "regex": "^[a-z]{2}\\d{4}$"
+      },
+      {
+        "count": 1,
+        "example": "20200074287C",
+        "pattern": "\\d{11}[A-Z]{1}",
+        "percentage": 0.0,
+        "regex": "^\\d{11}[A-Z]{1}$"
+      },
+      {
+        "count": 1,
+        "example": "RD98-598",
+        "pattern": "[A-Z]{2}\\d{2}\\-\\d{3}",
+        "percentage": 0.0,
+        "regex": "^[A-Z]{2}\\d{2}\\-\\d{3}$"
+      },
+      {
+        "count": 1,
+        "example": "bp333",
+        "pattern": "[a-z]{2}\\d{3}",
+        "percentage": 0.0,
+        "regex": "^[a-z]{2}\\d{3}$"
+      }
+    ],
+    "record_count": 2490,
+    "unique_doc_types": 115
+  },
+  "onslow": {
+    "book_patterns": [
+      {
+        "count": 1000,
+        "example": "5399",
+        "pattern": "numeric",
+        "percentage": 100.0,
+        "regex": "^\\d+$"
+      }
+    ],
+    "date_range": {
+      "anomalies": [],
+      "earliest": "1976-04-16",
+      "latest": "2025-12-01"
+    },
+    "doc_type_distribution": {
+      "AFFIDAVIT": 20,
+      "ASSIGNMENT": 32,
+      "ASSUMED NAME": 3,
+      "Agreement": 3,
+      "Amendment": 17,
+      "Appointment": 1,
+      "Assignment of Deed of Trust": 1,
+      "Bylaws": 1,
+      "CANCELLATION": 114,
+      "Certificate of Satisfaction": 1,
+      "Certificate of Trust": 1,
+      "Construction Deed of Trust": 2,
+      "Correction Deed": 1,
+      "Corrective Assignment of Deed of Trust": 1,
+      "Covenants and Restrictions": 1,
+      "DECLARATION": 8,
+      "DEED": 648,
+      "DEED OF TRUST": 252,
+      "Declaration of Covenants, Conditions and Restrictions": 1,
+      "Declaration of Covenants, Conditions, Restrictions and Easements": 1,
+      "Deed": 1,
+      "Deed of Trust": 26,
+      "Doing Business As Certificate": 1,
+      "EASEMENT": 8,
+      "Easement": 4,
+      "FORECLOSURE": 1,
+      "GENERAL WARRANTY DEED": 1,
+      "General Warranty Deed": 8,
+      "JUDGMENT": 2,
+      "MAP": 27,
+      "MISCELLANEOUS": 75,
+      "MODIFICATION AGREEMENT": 1,
+      "Modification": 1,
+      "Notice of Foreclosure": 1,
+      "POWER OF ATTORNEY": 13,
+      "Plat": 18,
+      "Power of Attorney": 7,
+      "RELEASE": 312,
+      "RESTRICTIVE COVENANT": 19,
+      "RIGHT OF WAY": 1,
+      "Release": 3,
+      "Right of Way Agreement": 1,
+      "SUBORDINATION AGREEMENT": 2,
+      "SUBSTITUTE TRUSTEE": 3,
+      "Satisfaction": 17,
+      "Special Warranty Deed": 2,
+      "Trustee's Deed": 1,
+      "UCC": 7,
+      "Warranty Deed": 5
+    },
+    "instrument_patterns": [
+      {
+        "count": 1445,
+        "example": "bp5399793",
+        "pattern": "[a-z]{2}\\d{7}",
+        "percentage": 86.2,
+        "regex": "^[a-z]{2}\\d{7}$"
+      },
+      {
+        "count": 142,
+        "example": "bp345952",
+        "pattern": "[a-z]{2}\\d{6}",
+        "percentage": 8.5,
+        "regex": "^[a-z]{2}\\d{6}$"
+      },
+      {
+        "count": 49,
+        "example": "bp55798",
+        "pattern": "[a-z]{2}\\d{5}",
+        "percentage": 2.9,
+        "regex": "^[a-z]{2}\\d{5}$"
+      },
+      {
+        "count": 19,
+        "example": "008722570019",
+        "pattern": "\\d{10,}",
+        "percentage": 1.1,
+        "regex": "^\\d{10,}$"
+      },
+      {
+        "count": 19,
+        "example": "bp4640",
+        "pattern": "[a-z]{2}\\d{4}",
+        "percentage": 1.1,
+        "regex": "^[a-z]{2}\\d{4}$"
+      },
+      {
+        "count": 2,
+        "example": "bp656",
+        "pattern": "[a-z]{2}\\d{3}",
+        "percentage": 0.1,
+        "regex": "^[a-z]{2}\\d{3}$"
+      },
+      {
+        "count": 1,
+        "example": "070529-59459A",
+        "pattern": "\\d{6}\\-\\d{5}[A-Z]{1}",
+        "percentage": 0.1,
+        "regex": "^\\d{6}\\-\\d{5}[A-Z]{1}$"
+      }
+    ],
+    "record_count": 1677,
+    "unique_doc_types": 49
+  },
+  "union": {
+    "book_patterns": [
+      {
+        "count": 151,
+        "example": "1509",
+        "pattern": "numeric",
+        "percentage": 100.0,
+        "regex": "^\\d+$"
+      }
+    ],
+    "date_range": {
+      "anomalies": [],
+      "earliest": "1975-07-22",
+      "latest": "2018-10-11"
+    },
+    "doc_type_distribution": {
+      "Agreement": 1,
+      "DEED": 148,
+      "QCD": 3
+    },
+    "instrument_patterns": [
+      {
+        "count": 151,
+        "example": "2001-42520",
+        "pattern": "\\d{4}-\\d{5,7}",
+        "percentage": 99.3,
+        "regex": "^\\d{4}-\\d{5,7}$"
+      },
+      {
+        "count": 1,
+        "example": "bp8765541",
+        "pattern": "[a-z]{2}\\d{7}",
+        "percentage": 0.7,
+        "regex": "^[a-z]{2}\\d{7}$"
+      }
+    ],
+    "record_count": 152,
+    "unique_doc_types": 3
+  },
+  "wake": {
+    "book_patterns": [
+      {
+        "count": 943,
+        "example": "10905",
+        "pattern": "numeric",
+        "percentage": 94.3,
+        "regex": "^\\d+$"
+      },
+      {
+        "count": 49,
+        "example": "BM2001",
+        "pattern": "prefix-numeric",
+        "percentage": 4.9,
+        "regex": "^[A-Z]{2,}\\d+$"
+      },
+      {
+        "count": 7,
+        "example": "X931",
+        "pattern": "alpha-numeric",
+        "percentage": 0.7,
+        "regex": "^[A-Z]\\d+$"
+      },
+      {
+        "count": 1,
+        "example": "1972 Vol.1",
+        "pattern": "N{4} A{3}.N{1}",
+        "percentage": 0.1,
+        "regex": "^\\d{4}\\ [A-Za-z]{3}\\.\\d{1}$"
+      }
+    ],
+    "date_range": {
+      "anomalies": [
+        "2098-09-05T20:00:00",
+        "2115-02-09T21:00:00",
+        "2115-02-09T21:00:00",
+        "1490-11-12T19:17:15"
+      ],
+      "earliest": "1970-04-30",
+      "latest": "2025-11-13"
+    },
+    "doc_type_distribution": {
+      "AFFIDAVIT": 9,
+      "AGREEMENT": 15,
+      "AMENDMENT": 12,
+      "ASSIGNMENT": 18,
+      "ASSUMED NAME": 18,
+      "Agreement": 1,
+      "Amendment": 4,
+      "Articles of Incorporation": 1,
+      "Boundary Line Agreement": 1,
+      "CANCELLATION": 89,
+      "CERTIFICATE": 3,
+      "CERTIFICATE OF SATISFACTION": 68,
+      "CONSENT": 1,
+      "CORPORATION": 1,
+      "COVENANTS": 6,
+      "Condominium Declaration": 1,
+      "Construction Deed of Trust": 1,
+      "Covenants and Restrictions": 1,
+      "DECLARATION": 29,
+      "DECLARATION EASEMENT": 1,
+      "DEED": 940,
+      "DEED OF EASEMENT": 10,
+      "DEED OF TRUST": 394,
+      "Declaration of Covenants, Conditions, and Restrictions": 1,
+      "Deed": 3,
+      "Deed of Trust": 8,
+      "EASEMENT": 19,
+      "Easement": 3,
+      "FORECLOSURE NOTICE": 9,
+      "GRAVE REMOVAL": 2,
+      "General Warranty Deed": 4,
+      "JUDGMENT": 1,
+      "LEASE": 12,
+      "Lis Pendens": 1,
+      "MAP PLAT": 124,
+      "MEMORANDUM": 6,
+      "MEMORANDUM OF ACTION": 1,
+      "MODIFICATION": 12,
+      "MORTGAGE": 4,
+      "NOTICE": 4,
+      "Non-Warranty Deed": 1,
+      "ORDER": 1,
+      "ORDINANCE": 1,
+      "PARTIAL RELEASE": 91,
+      "PARTNERSHIP": 3,
+      "PLAT": 1,
+      "POWER OF ATTORNEY": 40,
+      "Plat": 10,
+      "Power of Attorney": 1,
+      "Property Tax Liens": 1,
+      "QUIT CLAIM DEED": 19,
+      "Quit Claim Deed": 1,
+      "RELEASE": 143,
+      "REQUEST NOTICE": 42,
+      "RESTRICTION": 8,
+      "REVOCATION": 1,
+      "RIGHT OF WAY": 11,
+      "SATISFACTION": 148,
+      "SEE INSTRUMENT": 16,
+      "SUBORDINATION": 19,
+      "SUBSTITUTE TRUSTEE": 10,
+      "SUPPLEMENT": 18,
+      "Satisfaction": 3,
+      "Special Warranty Deed": 3,
+      "TERMINATION": 1,
+      "Termination of Condominium Declaration": 1,
+      "UCC CONTINUATION": 1,
+      "UCC Financing Statement Amendment": 3,
+      "UNIFORM COMMERCIAL CODE": 31,
+      "WAIVER": 5,
+      "WITHDRAWAL": 1
+    },
+    "instrument_patterns": [
+      {
+        "count": 2211,
+        "example": "010905-02162",
+        "pattern": "\\d{6}\\-\\d{5}",
+        "percentage": 89.4,
+        "regex": "^\\d{6}\\-\\d{5}$"
+      },
+      {
+        "count": 124,
+        "example": "BM2001-02017",
+        "pattern": "[A-Z]{2}\\d{4}-\\d+",
+        "percentage": 5.0,
+        "regex": "^[A-Z]{2}\\d{4}-\\d+$"
+      },
+      {
+        "count": 68,
+        "example": "2025010010",
+        "pattern": "\\d{10,}",
+        "percentage": 2.7,
+        "regex": "^\\d{10,}$"
+      },
+      {
+        "count": 19,
+        "example": "00X931-02248",
+        "pattern": "\\d{2}[A-Z]{1}\\d{3}\\-\\d{5}",
+        "percentage": 0.8,
+        "regex": "^\\d{2}[A-Z]{1}\\d{3}\\-\\d{5}$"
+      },
+      {
+        "count": 17,
+        "example": "bp01916501155",
+        "pattern": "[a-z]{2}\\d{11}",
+        "percentage": 0.7,
+        "regex": "^[a-z]{2}\\d{11}$"
+      },
+      {
+        "count": 9,
+        "example": "bp2002808",
+        "pattern": "[a-z]{2}\\d{7}",
+        "percentage": 0.4,
+        "regex": "^[a-z]{2}\\d{7}$"
+      },
+      {
+        "count": 4,
+        "example": "bp43840262",
+        "pattern": "[a-z]{2}\\d{8}",
+        "percentage": 0.2,
+        "regex": "^[a-z]{2}\\d{8}$"
+      },
+      {
+        "count": 3,
+        "example": "BK018798PG02063",
+        "pattern": "[A-Z]{2}\\d{6}[A-Z]{2}\\d{5}",
+        "percentage": 0.1,
+        "regex": "^[A-Z]{2}\\d{6}[A-Z]{2}\\d{5}$"
+      },
+      {
+        "count": 3,
+        "example": "bp195195",
+        "pattern": "[a-z]{2}\\d{6}",
+        "percentage": 0.1,
+        "regex": "^[a-z]{2}\\d{6}$"
+      },
+      {
+        "count": 2,
+        "example": "20240091879C",
+        "pattern": "\\d{11}[A-Z]{1}",
+        "percentage": 0.1,
+        "regex": "^\\d{11}[A-Z]{1}$"
+      },
+      {
+        "count": 2,
+        "example": "BKBM2019PG01880",
+        "pattern": "[A-Z]{4}\\d{4}[A-Z]{2}\\d{5}",
+        "percentage": 0.1,
+        "regex": "^[A-Z]{4}\\d{4}[A-Z]{2}\\d{5}$"
+      },
+      {
+        "count": 2,
+        "example": "bpBM19851938",
+        "pattern": "[A-Za-z]{4}\\d{8}",
+        "percentage": 0.1,
+        "regex": "^[A-Za-z]{4}\\d{8}$"
+      },
+      {
+        "count": 2,
+        "example": "bp195751043",
+        "pattern": "[a-z]{2}\\d{9}",
+        "percentage": 0.1,
+        "regex": "^[a-z]{2}\\d{9}$"
+      },
+      {
+        "count": 2,
+        "example": "3095421",
+        "pattern": "\\d{6,9}",
+        "percentage": 0.1,
+        "regex": "^\\d{6,9}$"
+      },
+      {
+        "count": 1,
+        "example": "GR1987-0002A",
+        "pattern": "[A-Z]{2}\\d{4}\\-\\d{4}[A-Z]{1}",
+        "percentage": 0.0,
+        "regex": "^[A-Z]{2}\\d{4}\\-\\d{4}[A-Z]{1}$"
+      },
+      {
+        "count": 1,
+        "example": "1972PG00086",
+        "pattern": "\\d{4}[A-Z]{2}\\d{5}",
+        "percentage": 0.0,
+        "regex": "^\\d{4}[A-Z]{2}\\d{5}$"
+      },
+      {
+        "count": 1,
+        "example": "bpBM202101482",
+        "pattern": "[A-Za-z]{4}\\d{9}",
+        "percentage": 0.0,
+        "regex": "^[A-Za-z]{4}\\d{9}$"
+      },
+      {
+        "count": 1,
+        "example": "bpCORP11346",
+        "pattern": "[A-Za-z]{6}\\d{5}",
+        "percentage": 0.0,
+        "regex": "^[A-Za-z]{6}\\d{5}$"
+      },
+      {
+        "count": 1,
+        "example": "bpBM199825",
+        "pattern": "[A-Za-z]{4}\\d{6}",
+        "percentage": 0.0,
+        "regex": "^[A-Za-z]{4}\\d{6}$"
+      }
+    ],
+    "record_count": 2473,
+    "unique_doc_types": 71
+  }
+}

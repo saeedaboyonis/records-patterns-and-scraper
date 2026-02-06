@@ -1,0 +1,44 @@
+# Docker Compose for Dono Data Engineer Assessment
+# Runs Ollama LLM service + Application container
+
+services:
+  # Ollama LLM service - runs the local model
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    restart: unless-stopped
+    # healthcheck using ollama CLI (curl not available in image)
+    healthcheck:
+      test: ["CMD", "ollama", "list"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
+      start_period: 30s
+
+  # Application container
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dono-app
+    depends_on:
+      ollama:
+        condition: service_started
+    environment:
+      - OLLAMA_BASE_URL=http://ollama:11434
+      - OLLAMA_MODEL=llama3.1:8b
+    volumes:
+      # Mount input/output directories for local dev
+      - ./inputs:/app/inputs:ro
+      - ./outputs:/app/outputs
+    # Default command - override with docker compose run
+    command: ["python", "-m", "src.llm_classifier", "--help"]
+
+# Named volume for model persistence
+volumes:
+  ollama_data:
+    name: ollama_data

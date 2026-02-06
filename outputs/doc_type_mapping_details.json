@@ -1,0 +1,2717 @@
+{
+  "mappings": [
+    {
+      "confidence": 0.85,
+      "frequency": 4552,
+      "is_uncertain": false,
+      "original_type": "DEED",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 1772,
+      "is_uncertain": false,
+      "original_type": "DEED OF TRUST",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 732,
+      "is_uncertain": false,
+      "original_type": "SATISFACTION",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 559,
+      "is_uncertain": false,
+      "original_type": "RELEASE",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 277,
+      "is_uncertain": false,
+      "original_type": "MAP",
+      "reasoning": "Matched rule pattern: plat|subdivision|survey|map|replat|boundary|rev.*map|map.*rev|/r\\b|\\bsub\\s*d\\b|dedication|\\bde\\b|decla.*condo",
+      "standard_category": "PLAT"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 252,
+      "is_uncertain": false,
+      "original_type": "DT",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 223,
+      "is_uncertain": false,
+      "original_type": "REL DEED",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 205,
+      "is_uncertain": false,
+      "original_type": "MAP/R",
+      "reasoning": "Matched rule pattern: plat|subdivision|survey|map|replat|boundary|rev.*map|map.*rev|/r\\b|\\bsub\\s*d\\b|dedication|\\bde\\b|decla.*condo",
+      "standard_category": "PLAT"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 203,
+      "is_uncertain": false,
+      "original_type": "CANCELLATION",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 193,
+      "is_uncertain": false,
+      "original_type": "ASSIGNMENT",
+      "reasoning": "Matched rule pattern: assignment\\b|asgn\\b|asgmt\\b|asign\\b|assign",
+      "standard_category": "MORTGAGE"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 192,
+      "is_uncertain": false,
+      "original_type": "PARTIAL RELEASE",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 189,
+      "is_uncertain": false,
+      "original_type": "PLAT",
+      "reasoning": "Matched rule pattern: plat|subdivision|survey|map|replat|boundary|rev.*map|map.*rev|/r\\b|\\bsub\\s*d\\b|dedication|\\bde\\b|decla.*condo",
+      "standard_category": "PLAT"
+    },
+    {
+      "confidence": 0.75,
+      "frequency": 165,
+      "is_uncertain": false,
+      "original_type": "SUBSTITUTION TRUSTEE",
+      "reasoning": "Matched rule pattern: substitution.*trustee|sub.*trustee|appointment.*trustee",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 162,
+      "is_uncertain": false,
+      "original_type": "SEE INSTRUMENT",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 138,
+      "is_uncertain": false,
+      "original_type": "CAN",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 133,
+      "is_uncertain": false,
+      "original_type": "SAT",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 132,
+      "is_uncertain": false,
+      "original_type": "POWER OF ATTORNEY",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 124,
+      "is_uncertain": false,
+      "original_type": "MAP PLAT",
+      "reasoning": "Matched rule pattern: plat|subdivision|survey|map|replat|boundary|rev.*map|map.*rev|/r\\b|\\bsub\\s*d\\b|dedication|\\bde\\b|decla.*condo",
+      "standard_category": "PLAT"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 120,
+      "is_uncertain": false,
+      "original_type": "Plat",
+      "reasoning": "Matched rule pattern: plat|subdivision|survey|map|replat|boundary|rev.*map|map.*rev|/r\\b|\\bsub\\s*d\\b|dedication|\\bde\\b|decla.*condo",
+      "standard_category": "PLAT"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 119,
+      "is_uncertain": false,
+      "original_type": "SATISFACTION - CERTIFICATE OF",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 117,
+      "is_uncertain": false,
+      "original_type": "Deed of Trust",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 101,
+      "is_uncertain": false,
+      "original_type": "D T",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 101,
+      "is_uncertain": false,
+      "original_type": "COMMISSIONERS DEED",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 100,
+      "is_uncertain": false,
+      "original_type": "AFFIDAVIT",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.75,
+      "frequency": 95,
+      "is_uncertain": false,
+      "original_type": "FORECLOSURE",
+      "reasoning": "Matched rule pattern: foreclosure|notice of sale|trustee sale|auction",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 82,
+      "is_uncertain": false,
+      "original_type": "SUB TR",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 81,
+      "is_uncertain": false,
+      "original_type": "EASEMENT",
+      "reasoning": "Matched rule pattern: easement|esmt\\b|ease\\b|right of way|r-way|r/w|\\brw\\b|utility.*easement|road.*easement|drainage.*easement|access.*easement",
+      "standard_category": "EASEMENT"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 78,
+      "is_uncertain": false,
+      "original_type": "D OF T",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 75,
+      "is_uncertain": false,
+      "original_type": "MISCELLANEOUS",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 74,
+      "is_uncertain": false,
+      "original_type": "TRUSTEES DEED",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 69,
+      "is_uncertain": false,
+      "original_type": "CERTIFICATE OF SATISFACTION",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 65,
+      "is_uncertain": false,
+      "original_type": "REL D",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 56,
+      "is_uncertain": false,
+      "original_type": "ESMT",
+      "reasoning": "Matched rule pattern: easement|esmt\\b|ease\\b|right of way|r-way|r/w|\\brw\\b|utility.*easement|road.*easement|drainage.*easement|access.*easement",
+      "standard_category": "EASEMENT"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 54,
+      "is_uncertain": false,
+      "original_type": "General Warranty Deed",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 54,
+      "is_uncertain": false,
+      "original_type": "Satisfaction",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 54,
+      "is_uncertain": false,
+      "original_type": "Restrictions",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 52,
+      "is_uncertain": false,
+      "original_type": "UNIFORM COMMERCIAL CODE",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 50,
+      "is_uncertain": false,
+      "original_type": "DECLARATION",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 46,
+      "is_uncertain": false,
+      "original_type": "ASGMT",
+      "reasoning": "Matched rule pattern: assignment\\b|asgn\\b|asgmt\\b|asign\\b|assign",
+      "standard_category": "MORTGAGE"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 45,
+      "is_uncertain": false,
+      "original_type": "Easement",
+      "reasoning": "Matched rule pattern: easement|esmt\\b|ease\\b|right of way|r-way|r/w|\\brw\\b|utility.*easement|road.*easement|drainage.*easement|access.*easement",
+      "standard_category": "EASEMENT"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 45,
+      "is_uncertain": false,
+      "original_type": "D-TR",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 43,
+      "is_uncertain": false,
+      "original_type": "Covenants and Restrictions",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 42,
+      "is_uncertain": false,
+      "original_type": "REQUEST NOTICE",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 42,
+      "is_uncertain": false,
+      "original_type": "QCD",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 41,
+      "is_uncertain": false,
+      "original_type": "Historical",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 38,
+      "is_uncertain": false,
+      "original_type": "ASSUMED NAME",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 37,
+      "is_uncertain": false,
+      "original_type": "NOTICE",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 37,
+      "is_uncertain": false,
+      "original_type": "TRS D",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 37,
+      "is_uncertain": false,
+      "original_type": "REST",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 35,
+      "is_uncertain": false,
+      "original_type": "Amendment",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 35,
+      "is_uncertain": false,
+      "original_type": "AGREEMENT",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 34,
+      "is_uncertain": false,
+      "original_type": "MODIFICATION",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 33,
+      "is_uncertain": false,
+      "original_type": "Warranty Deed",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 32,
+      "is_uncertain": false,
+      "original_type": "RESTRICTIONS",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 31,
+      "is_uncertain": false,
+      "original_type": "Deed",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 30,
+      "is_uncertain": false,
+      "original_type": "RIGHT OF WAY",
+      "reasoning": "Matched rule pattern: easement|esmt\\b|ease\\b|right of way|r-way|r/w|\\brw\\b|utility.*easement|road.*easement|drainage.*easement|access.*easement",
+      "standard_category": "EASEMENT"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 30,
+      "is_uncertain": false,
+      "original_type": "FC",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 28,
+      "is_uncertain": false,
+      "original_type": "SUBORDINATION",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 27,
+      "is_uncertain": false,
+      "original_type": "AGMT",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 25,
+      "is_uncertain": false,
+      "original_type": "PRE DEED",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 24,
+      "is_uncertain": false,
+      "original_type": "AFDVT",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.75,
+      "frequency": 23,
+      "is_uncertain": false,
+      "original_type": "SUBSTITUTE TRUSTEE",
+      "reasoning": "Matched rule pattern: substitution.*trustee|sub.*trustee|appointment.*trustee",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 23,
+      "is_uncertain": false,
+      "original_type": "Power of Attorney",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 23,
+      "is_uncertain": false,
+      "original_type": "NOTICE OF REQUEST",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 22,
+      "is_uncertain": false,
+      "original_type": "QUIT CLAIM DEED",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 22,
+      "is_uncertain": false,
+      "original_type": "AMENDMENT",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 22,
+      "is_uncertain": false,
+      "original_type": "REQ",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 22,
+      "is_uncertain": false,
+      "original_type": "REL",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 22,
+      "is_uncertain": false,
+      "original_type": "UCC AMENDMENT",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 22,
+      "is_uncertain": false,
+      "original_type": "DEED ACEPT",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 21,
+      "is_uncertain": false,
+      "original_type": "Assignment of Deed of Trust",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 21,
+      "is_uncertain": false,
+      "original_type": "COV",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 21,
+      "is_uncertain": false,
+      "original_type": "MTGE",
+      "reasoning": "Matched rule pattern: mortgage|mtg\\b|mtge\\b|mod\\b.*mortgage|modification.*mortgage",
+      "standard_category": "MORTGAGE"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 20,
+      "is_uncertain": false,
+      "original_type": "UCC Financing Statement",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 20,
+      "is_uncertain": false,
+      "original_type": "SUB D",
+      "reasoning": "Matched rule pattern: plat|subdivision|survey|map|replat|boundary|rev.*map|map.*rev|/r\\b|\\bsub\\s*d\\b|dedication|\\bde\\b|decla.*condo",
+      "standard_category": "PLAT"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 19,
+      "is_uncertain": false,
+      "original_type": "RESTRICTIVE COVENANT",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 18,
+      "is_uncertain": false,
+      "original_type": "Special Warranty Deed",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 18,
+      "is_uncertain": false,
+      "original_type": "SUPPLEMENT",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 18,
+      "is_uncertain": false,
+      "original_type": "MODIF AGMT",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 18,
+      "is_uncertain": false,
+      "original_type": "MODIFICATION AGREEMENT",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 17,
+      "is_uncertain": false,
+      "original_type": "MEMO",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 16,
+      "is_uncertain": false,
+      "original_type": "DEDICATION",
+      "reasoning": "Matched rule pattern: plat|subdivision|survey|map|replat|boundary|rev.*map|map.*rev|/r\\b|\\bsub\\s*d\\b|dedication|\\bde\\b|decla.*condo",
+      "standard_category": "PLAT"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 16,
+      "is_uncertain": false,
+      "original_type": "RESTR COV",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 15,
+      "is_uncertain": false,
+      "original_type": "CONDO",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 15,
+      "is_uncertain": false,
+      "original_type": "ASIGN",
+      "reasoning": "Matched rule pattern: assignment\\b|asgn\\b|asgmt\\b|asign\\b|assign",
+      "standard_category": "MORTGAGE"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 14,
+      "is_uncertain": false,
+      "original_type": "MEMORANDUM",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 14,
+      "is_uncertain": false,
+      "original_type": "LEASE",
+      "reasoning": "Matched rule pattern: easement|esmt\\b|ease\\b|right of way|r-way|r/w|\\brw\\b|utility.*easement|road.*easement|drainage.*easement|access.*easement",
+      "standard_category": "EASEMENT"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 14,
+      "is_uncertain": false,
+      "original_type": "PA",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 13,
+      "is_uncertain": false,
+      "original_type": "PRE D/T",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 13,
+      "is_uncertain": false,
+      "original_type": "UCC",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 12,
+      "is_uncertain": false,
+      "original_type": "Agreement",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 12,
+      "is_uncertain": false,
+      "original_type": "Declaration of Covenants, Conditions and Restrictions",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 12,
+      "is_uncertain": false,
+      "original_type": "CORR D",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 12,
+      "is_uncertain": false,
+      "original_type": "Q C D",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 11,
+      "is_uncertain": false,
+      "original_type": "JUDGMENT",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 11,
+      "is_uncertain": false,
+      "original_type": "UCC ORIGINAL",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 11,
+      "is_uncertain": false,
+      "original_type": "F S",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 10,
+      "is_uncertain": false,
+      "original_type": "MORTGAGE",
+      "reasoning": "Matched rule pattern: mortgage|mtg\\b|mtge\\b|mod\\b.*mortgage|modification.*mortgage",
+      "standard_category": "MORTGAGE"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 10,
+      "is_uncertain": false,
+      "original_type": "DEED OF EASEMENT",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.75,
+      "frequency": 10,
+      "is_uncertain": false,
+      "original_type": "Substitution of Trustee",
+      "reasoning": "Matched rule pattern: substitution.*trustee|sub.*trustee|appointment.*trustee",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 10,
+      "is_uncertain": false,
+      "original_type": "Certificate of Satisfaction",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 10,
+      "is_uncertain": false,
+      "original_type": "Restriction",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 10,
+      "is_uncertain": false,
+      "original_type": "R/W",
+      "reasoning": "Matched rule pattern: easement|esmt\\b|ease\\b|right of way|r-way|r/w|\\brw\\b|utility.*easement|road.*easement|drainage.*easement|access.*easement",
+      "standard_category": "EASEMENT"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 10,
+      "is_uncertain": false,
+      "original_type": "COVENANT/RESTRICTED COVENANTS",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.75,
+      "frequency": 9,
+      "is_uncertain": false,
+      "original_type": "FORECLOSURE NOTICE",
+      "reasoning": "Matched rule pattern: foreclosure|notice of sale|trustee sale|auction",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 9,
+      "is_uncertain": false,
+      "original_type": "REQUEST",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 9,
+      "is_uncertain": false,
+      "original_type": "DEED OF TRUST SATISFACTION",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 8,
+      "is_uncertain": false,
+      "original_type": "RESTRICTION",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 8,
+      "is_uncertain": false,
+      "original_type": "Release",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 8,
+      "is_uncertain": false,
+      "original_type": "DEED ESMT",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 8,
+      "is_uncertain": false,
+      "original_type": "C-SAT",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 7,
+      "is_uncertain": false,
+      "original_type": "ORDER",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 7,
+      "is_uncertain": false,
+      "original_type": "D/T",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 7,
+      "is_uncertain": false,
+      "original_type": "A NAME",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 7,
+      "is_uncertain": false,
+      "original_type": "D & REL",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 7,
+      "is_uncertain": false,
+      "original_type": "AMD COV",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 7,
+      "is_uncertain": false,
+      "original_type": "TIM D",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 7,
+      "is_uncertain": false,
+      "original_type": "MEMO ACT",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 7,
+      "is_uncertain": false,
+      "original_type": "CORRECTED DEED",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 7,
+      "is_uncertain": false,
+      "original_type": "CONT CONVY",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 7,
+      "is_uncertain": false,
+      "original_type": "R",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 7,
+      "is_uncertain": false,
+      "original_type": "CORRECTIVE/SCRIVENERS AFFIDAVIT",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 7,
+      "is_uncertain": false,
+      "original_type": "EASE",
+      "reasoning": "Matched rule pattern: easement|esmt\\b|ease\\b|right of way|r-way|r/w|\\brw\\b|utility.*easement|road.*easement|drainage.*easement|access.*easement",
+      "standard_category": "EASEMENT"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 6,
+      "is_uncertain": false,
+      "original_type": "COVENANTS",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 6,
+      "is_uncertain": false,
+      "original_type": "CERTIFICATE",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 6,
+      "is_uncertain": false,
+      "original_type": "ORDINANCE",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 6,
+      "is_uncertain": false,
+      "original_type": "P A",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 6,
+      "is_uncertain": false,
+      "original_type": "DEED & REL",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 6,
+      "is_uncertain": false,
+      "original_type": "ESMT D",
+      "reasoning": "Matched rule pattern: easement|esmt\\b|ease\\b|right of way|r-way|r/w|\\brw\\b|utility.*easement|road.*easement|drainage.*easement|access.*easement",
+      "standard_category": "EASEMENT"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 6,
+      "is_uncertain": false,
+      "original_type": "SUBORDINATION OR RESUB AGREEME",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 6,
+      "is_uncertain": false,
+      "original_type": "Doing Business As Certificate",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 5,
+      "is_uncertain": false,
+      "original_type": "WAIVER",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 5,
+      "is_uncertain": false,
+      "original_type": "DE",
+      "reasoning": "Matched rule pattern: plat|subdivision|survey|map|replat|boundary|rev.*map|map.*rev|/r\\b|\\bsub\\s*d\\b|dedication|\\bde\\b|decla.*condo",
+      "standard_category": "PLAT"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 5,
+      "is_uncertain": false,
+      "original_type": "Modification",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.75,
+      "frequency": 5,
+      "is_uncertain": false,
+      "original_type": "Notice of Foreclosure",
+      "reasoning": "Matched rule pattern: foreclosure|notice of sale|trustee sale|auction",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 5,
+      "is_uncertain": false,
+      "original_type": "Correction Deed",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 5,
+      "is_uncertain": false,
+      "original_type": "Declaration of Restrictions",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 5,
+      "is_uncertain": false,
+      "original_type": "Declaration",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 5,
+      "is_uncertain": false,
+      "original_type": "DECLARATION UNIT OWNERSHIP",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 5,
+      "is_uncertain": false,
+      "original_type": "R FOR N",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 5,
+      "is_uncertain": false,
+      "original_type": "DECLA CONDO",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 5,
+      "is_uncertain": false,
+      "original_type": "SUB-T",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 5,
+      "is_uncertain": false,
+      "original_type": "POA",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 5,
+      "is_uncertain": false,
+      "original_type": "Right of Way",
+      "reasoning": "Matched rule pattern: easement|esmt\\b|ease\\b|right of way|r-way|r/w|\\brw\\b|utility.*easement|road.*easement|drainage.*easement|access.*easement",
+      "standard_category": "EASEMENT"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 5,
+      "is_uncertain": false,
+      "original_type": "R-WAY",
+      "reasoning": "Matched rule pattern: easement|esmt\\b|ease\\b|right of way|r-way|r/w|\\brw\\b|utility.*easement|road.*easement|drainage.*easement|access.*easement",
+      "standard_category": "EASEMENT"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 4,
+      "is_uncertain": false,
+      "original_type": "Quit Claim Deed",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 4,
+      "is_uncertain": false,
+      "original_type": "Articles of Incorporation",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 4,
+      "is_uncertain": false,
+      "original_type": "Construction Deed of Trust",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.75,
+      "frequency": 4,
+      "is_uncertain": false,
+      "original_type": "Notice of Sale",
+      "reasoning": "Matched rule pattern: foreclosure|notice of sale|trustee sale|auction",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 4,
+      "is_uncertain": false,
+      "original_type": "CMS D",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 4,
+      "is_uncertain": false,
+      "original_type": "RW",
+      "reasoning": "Matched rule pattern: easement|esmt\\b|ease\\b|right of way|r-way|r/w|\\brw\\b|utility.*easement|road.*easement|drainage.*easement|access.*easement",
+      "standard_category": "EASEMENT"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 4,
+      "is_uncertain": true,
+      "original_type": "DECL",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 4,
+      "is_uncertain": false,
+      "original_type": "REGISTER OF DEEDS CORRECTION",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 4,
+      "is_uncertain": false,
+      "original_type": "Right of Way Agreement",
+      "reasoning": "Matched rule pattern: easement|esmt\\b|ease\\b|right of way|r-way|r/w|\\brw\\b|utility.*easement|road.*easement|drainage.*easement|access.*easement",
+      "standard_category": "EASEMENT"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 4,
+      "is_uncertain": false,
+      "original_type": "Notice of Bankruptcy",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 3,
+      "is_uncertain": false,
+      "original_type": "CONSENT",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 3,
+      "is_uncertain": false,
+      "original_type": "UCC Financing Statement Amendment",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 3,
+      "is_uncertain": true,
+      "original_type": "PARTNERSHIP",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 3,
+      "is_uncertain": true,
+      "original_type": "Appointment",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 3,
+      "is_uncertain": true,
+      "original_type": "CANCEL",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 3,
+      "is_uncertain": false,
+      "original_type": "Notice",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 3,
+      "is_uncertain": false,
+      "original_type": "ASGM DT",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 3,
+      "is_uncertain": false,
+      "original_type": "CORR DT",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 3,
+      "is_uncertain": false,
+      "original_type": "Cancellation",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 3,
+      "is_uncertain": false,
+      "original_type": "Scrivener's Affidavit",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 3,
+      "is_uncertain": true,
+      "original_type": "PRE A N",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 3,
+      "is_uncertain": true,
+      "original_type": "RESIGNATION OF TRUSTEE",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 3,
+      "is_uncertain": true,
+      "original_type": "PRE P/A",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 3,
+      "is_uncertain": true,
+      "original_type": "ACKNOWLEDGEMENT",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 3,
+      "is_uncertain": false,
+      "original_type": "Assignment",
+      "reasoning": "Matched rule pattern: assignment\\b|asgn\\b|asgmt\\b|asign\\b|assign",
+      "standard_category": "MORTGAGE"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 3,
+      "is_uncertain": false,
+      "original_type": "Substitute Trustee's Deed",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 3,
+      "is_uncertain": false,
+      "original_type": "RESTR COVS",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 3,
+      "is_uncertain": true,
+      "original_type": "PART",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 3,
+      "is_uncertain": false,
+      "original_type": "CERT OF SAT",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 3,
+      "is_uncertain": false,
+      "original_type": "Declaration of Covenants, Conditions, Restrictions and Easements",
+      "reasoning": "Matched rule pattern: easement|esmt\\b|ease\\b|right of way|r-way|r/w|\\brw\\b|utility.*easement|road.*easement|drainage.*easement|access.*easement",
+      "standard_category": "EASEMENT"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 3,
+      "is_uncertain": false,
+      "original_type": "Certificate of Trust",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 3,
+      "is_uncertain": true,
+      "original_type": "TR-D",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 3,
+      "is_uncertain": true,
+      "original_type": "AMEND",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 2,
+      "is_uncertain": true,
+      "original_type": "GRAVE REMOVAL",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "REVOCATION",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "LIEN",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "Subordination Agreement",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 2,
+      "is_uncertain": true,
+      "original_type": "CERT",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 2,
+      "is_uncertain": true,
+      "original_type": "OPTION",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "CORR DEED",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 2,
+      "is_uncertain": true,
+      "original_type": "CONT",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "CORR TRS D",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "CORR D T",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "CONTRACT",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 2,
+      "is_uncertain": true,
+      "original_type": "PRE SATISFAC",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 2,
+      "is_uncertain": true,
+      "original_type": "PRE DIS PTNR",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "Purchase Money Deed of Trust",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "COVENANT",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "PRE COR D/T",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "Trustee's Deed",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "REVOCATION OF POWER OF ATTORNE",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "PRE DEC REST",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "Foreclosure Deed",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "PRE REQ NOTC",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "Memorandum of Option Agreement",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "Survey Recording Sheet",
+      "reasoning": "Matched rule pattern: plat|subdivision|survey|map|replat|boundary|rev.*map|map.*rev|/r\\b|\\bsub\\s*d\\b|dedication|\\bde\\b|decla.*condo",
+      "standard_category": "PLAT"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "ASSIGNMENT RENT",
+      "reasoning": "Matched rule pattern: assignment\\b|asgn\\b|asgmt\\b|asign\\b|assign",
+      "standard_category": "MORTGAGE"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "QUITCLAIM DEED",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "TRUSTEE DEED",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 2,
+      "is_uncertain": true,
+      "original_type": "STATEMENT",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "DECL CONDO",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.75,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "NOTICE OF FORECLOSURE",
+      "reasoning": "Matched rule pattern: foreclosure|notice of sale|trustee sale|auction",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "REQUEST FOR NOTICE",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "SUBORDINATION AGREEMENT",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 2,
+      "is_uncertain": true,
+      "original_type": "AGRMT",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 2,
+      "is_uncertain": true,
+      "original_type": "SUB-A",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 2,
+      "is_uncertain": true,
+      "original_type": "NOT",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 2,
+      "is_uncertain": true,
+      "original_type": "JUDG",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "Life Estate Deed",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 2,
+      "is_uncertain": false,
+      "original_type": "Affidavit",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "TERMINATION",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Property Tax Liens",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Condominium Declaration",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Termination of Condominium Declaration",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Boundary Line Agreement",
+      "reasoning": "Matched rule pattern: plat|subdivision|survey|map|replat|boundary|rev.*map|map.*rev|/r\\b|\\bsub\\s*d\\b|dedication|\\bde\\b|decla.*condo",
+      "standard_category": "PLAT"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "WITHDRAWAL",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Declaration of Covenants, Conditions, and Restrictions",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Non-Warranty Deed",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "UCC CONTINUATION",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "MEMORANDUM OF ACTION",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "CORPORATION",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "DECLARATION EASEMENT",
+      "reasoning": "Matched rule pattern: easement|esmt\\b|ease\\b|right of way|r-way|r/w|\\brw\\b|utility.*easement|road.*easement|drainage.*easement|access.*easement",
+      "standard_category": "EASEMENT"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Lis Pendens",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "CAN/LIEN",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Right of Way Easement",
+      "reasoning": "Matched rule pattern: easement|esmt\\b|ease\\b|right of way|r-way|r/w|\\brw\\b|utility.*easement|road.*easement|drainage.*easement|access.*easement",
+      "standard_category": "EASEMENT"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Corporate Assignment of Deed of Trust",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Consent to Grant of Easement",
+      "reasoning": "Matched rule pattern: easement|esmt\\b|ease\\b|right of way|r-way|r/w|\\brw\\b|utility.*easement|road.*easement|drainage.*easement|access.*easement",
+      "standard_category": "EASEMENT"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "Q C",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "Tax Record",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "PROPERTY TAX BILL",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "ASSIGNMENT OF DEED OF TRUST",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Notice of Hearing",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "WDRAW&COV",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "WDRAW COV",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Notice of Default",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Amendment and Declaration of Restrictions",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "SUB AGMT",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "WDRAW ESMT",
+      "reasoning": "Matched rule pattern: easement|esmt\\b|ease\\b|right of way|r-way|r/w|\\brw\\b|utility.*easement|road.*easement|drainage.*easement|access.*easement",
+      "standard_category": "EASEMENT"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "D/&REL",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "MTG",
+      "reasoning": "Matched rule pattern: mortgage|mtg\\b|mtge\\b|mod\\b.*mortgage|modification.*mortgage",
+      "standard_category": "MORTGAGE"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "SEE INST",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "D T ADDTN",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Release/Revoke/Satisfy/Terminate",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "JDGMT",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Partial Release",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Deed of Trust (Construction) with Assignment of Leases and Rents, Fixture Filing, and Security Agreement",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Supplemental Declaration",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "AMD AGMT",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Declaration of Condominium",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "B L AGMT",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "MODIF COV",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "ORDIN",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "BS & ASGMT",
+      "reasoning": "Matched rule pattern: assignment\\b|asgn\\b|asgmt\\b|asign\\b|assign",
+      "standard_category": "MORTGAGE"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "C C SUSPEN",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "ADM NOTICE",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "ESMT DEED",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "R W",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Deed of Release",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Request for Notification of Default and Sale",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "DEED&ESMT",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "SUPPLEMENTAL DEED OF TRUST",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "LIMITED PARTNERSHIP",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "ERECORD UCC AMENDMENT",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "North Carolina General Warranty Deed",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "PRE MAP",
+      "reasoning": "Matched rule pattern: plat|subdivision|survey|map|replat|boundary|rev.*map|map.*rev|/r\\b|\\bsub\\s*d\\b|dedication|\\bde\\b|decla.*condo",
+      "standard_category": "PLAT"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Amendment to Declaration of Covenants, Conditions and Restrictions",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "PRE REL",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "RESTRICTED COVENANTS",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Final Judgment",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "PRE SUPL RES",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "BYLAWS",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "Merger Documents",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Deed of Trust, Assignment of Rents and Fixture Filing",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Declaration of Covenants and Restrictions",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Revocation",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Correction Agreement Limited Power of Attorney",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Special Warranty Deed and Bill of Sale",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Administrative Notice",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.75,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Appointment of Substitute Trustee",
+      "reasoning": "Matched rule pattern: substitution.*trustee|sub.*trustee|appointment.*trustee",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "UNK",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Gas, Oil, or Mineral Deed",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "By-Laws",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Commissioner's Deed",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "PRE DEC UNIT",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "PRE A D REST",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "PRE SUBORDN",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "ERECORD UCC ORIGINAL",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Memorandum of Agreement",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "VARIANCE",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "PRE COR DEED",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "Annexation",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Declaration of Covenants, Conditions, Restrictions, Easements, Charges and Liens (Amended and Restated)",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Stormwater Facility Agreement and Covenants",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "COREC DECL",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "RESTRICTIVE COVENANTS",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "P/A",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "DECLARATION & CORPORATION",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "DECLARATION OF CONDOMINIUM",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "ESMT AGMT",
+      "reasoning": "Matched rule pattern: easement|esmt\\b|ease\\b|right of way|r-way|r/w|\\brw\\b|utility.*easement|road.*easement|drainage.*easement|access.*easement",
+      "standard_category": "EASEMENT"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "SUBORD JOINR",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "NOTICE SAT",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "PERMIT",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "RESTRI COV",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "AMEND DECLA",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "SAT D OF T",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "PETITION",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "SUBORD RESTR",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "SRS",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "CORP",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Property Tax Notice",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "PRE 95 DEEDS",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "CERT TR",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "Bylaws",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "GENERAL WARRANTY DEED",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Corrective Assignment of Deed of Trust",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.75,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Resignation of Substitute Trustee",
+      "reasoning": "Matched rule pattern: substitution.*trustee|sub.*trustee|appointment.*trustee",
+      "standard_category": "DEED_OF_TRUST"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "RESIGNATION",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Agreement for Deed",
+      "reasoning": "Matched rule pattern: deed(?! of trust)|warranty|quitclaim|quit claim|qcd\\b|q\\s*c\\s*d\\b|grant deed|bargain|conveyance|convy|special warranty|general warranty|executor.*deed|fiduciary|administrator.*deed|guardian.*deed|commissioner.*deed|trustee.*deed|sherif.*deed|tax deed|court order.*deed|ref deed|correction deed|corr\\s*d\\b|condo|tim\\s*d\\b|cms\\s*d\\b",
+      "standard_category": "SALE_DEED"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "Complaint",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "D-REL",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "MOD-A",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "R-POA",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "N-FOR",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Judgment",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "N-SAT",
+      "reasoning": "Matched rule pattern: ^rel\\b|release|satisfaction|discharge|reconveyance|cancellation|\\bsat\\b|\\bcan\\b|partial rel|d\\s*&\\s*rel",
+      "standard_category": "RELEASE"
+    },
+    {
+      "confidence": 0.85,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Right of Way and Easement",
+      "reasoning": "Matched rule pattern: easement|esmt\\b|ease\\b|right of way|r-way|r/w|\\brw\\b|utility.*easement|road.*easement|drainage.*easement|access.*easement",
+      "standard_category": "EASEMENT"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "L-POA",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Court Order",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "SUPPL",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.7,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Separation Agreement",
+      "reasoning": "Matched rule pattern: power of attorney|poa\\b|\\bpa\\b|p\\s*a\\b|affidavit|afdvt\\b|agreement\\b|agmt\\b|contract|covenant|cov\\b|restrictive|restriction|restr|rest\\b|declaration|resolution|certificate|consent|waiver|amendment|revocation|estoppel|subordination|modification|modif|assumed name|a\\s*name\\b|memo\\b|memorandum|notice\\b|request|req\\b|r for n|supplement|historical|miscellaneous|see instrument|order\\b|ordinance|articles|incorporation|\\br\\b",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.5,
+      "frequency": 1,
+      "is_uncertain": true,
+      "original_type": "QC-D",
+      "reasoning": "No matching rule found",
+      "standard_category": "MISC"
+    },
+    {
+      "confidence": 0.8,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Federal Tax Lien",
+      "reasoning": "Matched rule pattern: lien|lis pendens|judgment|levy|attachment|notice of default|notice of trustee|mechanics.*lien|materialman|federal tax|state tax|claim of lien|\\bfc\\b|uniform commercial code|\\bucc\\b|f\\s*s\\b",
+      "standard_category": "LIEN"
+    },
+    {
+      "confidence": 0.9,
+      "frequency": 1,
+      "is_uncertain": false,
+      "original_type": "Correction Assignment of Deed of Trust",
+      "reasoning": "Matched rule pattern: deed of trust|trust deed|d\\.?o\\.?t\\.?\\b|d\\s*t\\b|d-tr|d of t|deed-of-trust|dot\\b|trs\\s*d\\b|sub\\s*tr\\b|d/t|pre\\s*d/t|sub-t",
+      "standard_category": "DEED_OF_TRUST"
+    }
+  ],
+  "summary": {
+    "api_calls_made": 0,
+    "dry_run": true,
+    "estimated_cost_usd": 0.0,
+    "total_records_covered": 13877,
+    "total_tokens_used": 0,
+    "total_types_processed": 338,
+    "uncertain_mappings": 61
+  }
+}

@@ -1,0 +1,34 @@
+# Core dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+
+# HTTP and async support
+urllib3>=2.0.0
+aiohttp>=3.9.0
+
+# Data validation and processing
+pydantic>=2.5.0
+
+# LLM integration (local Ollama)
+ollama>=0.4.0
+
+# Date handling
+python-dateutil>=2.8.0
+pytz>=2024.1
+
+# Rate limiting
+ratelimit>=2.2.0
+
+# Retry logic
+tenacity>=8.2.0
+
+# Type checking (dev)
+mypy>=1.8.0
+types-requests>=2.31.0
+types-beautifulsoup4>=4.12.0
+types-python-dateutil>=2.8.0
+
+# Testing (dev)
+pytest>=8.0.0
+pytest-asyncio>=0.23.0

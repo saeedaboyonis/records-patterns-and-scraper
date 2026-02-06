@@ -1,0 +1,74 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python Debugger: Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal"
+        },
+        {
+            "name": "Pattern Analyzer",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "src.pattern_analyzer",
+            "console": "integratedTerminal",
+            "args": [
+                "--input",
+                "/workspaces/Dono data engineer assessment/inputs/nc_records_assessment.jsonl",
+                "--output",
+                "/workspaces/Dono data engineer assessment/outputs/county_patterns.json"
+            ],
+            "cwd": "/workspaces/Dono data engineer assessment"
+        },
+        {
+            "name": "Seminole Scraper Test",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "src.seminole_scraper",
+            "console": "integratedTerminal",
+            "args": [
+                "--test",
+                "--output",
+                "/workspaces/Dono data engineer assessment/outputs/seminole_test_results.json"
+            ],
+            "cwd": "/workspaces/Dono data engineer assessment"
+        },
+        {
+            "name": "LLM Classifier",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "src.llm_classifier",
+            "console": "integratedTerminal",
+            "args": [
+                "--input",
+                "/workspaces/Dono data engineer assessment/inputs/nc_records_assessment.jsonl",
+                "--output",
+                "/workspaces/Dono data engineer assessment/outputs/doc_type_mapping.json"
+            ],
+            "cwd": "/workspaces/Dono data engineer assessment",
+            "env": {
+                "OPENAI_API_KEY": "${env:OPENAI_API_KEY}"
+            }
+        },
+        {
+            "name": "LLM Classifier (Dry Run)",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "src.llm_classifier",
+            "console": "integratedTerminal",
+            "args": [
+                "--input",
+                "/workspaces/Dono data engineer assessment/inputs/nc_records_assessment.jsonl",
+                "--output",
+                "/workspaces/Dono data engineer assessment/outputs/doc_type_mapping.json",
+                "--dry-run"
+            ],
+            "cwd": "/workspaces/Dono data engineer assessment"
+        }
+    ]
+}
