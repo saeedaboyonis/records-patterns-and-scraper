@@ -51,7 +51,6 @@ from typing import Any, Optional
 import os
 
 from .domain.models import (
-    StandardDocCategory,
     DocTypeMapping,
     ClassificationResult,
 )

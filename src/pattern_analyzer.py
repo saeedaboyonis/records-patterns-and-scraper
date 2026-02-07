@@ -17,7 +17,7 @@ from __future__ import annotations
 import argparse
 import re
 import sys
-from collections import Counter, defaultdict
+from collections import Counter
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Optional
@@ -28,7 +28,7 @@ from .domain.models import (
     BookPattern,
     DateRange,
 )
-from .domain.normalizers import RecordNormalizer, DateNormalizer
+from .domain.normalizers import DateNormalizer
 from .io.jsonl_reader import JsonlReader
 from .io.json_writer import JsonWriter
 from .infra.logging import setup_logging, get_logger
@@ -437,7 +437,6 @@ class PatternAnalyzer:
         self.output_path = Path(output_path)
         
         self.aggregators: dict[str, CountyStatsAggregator] = {}
-        self.normalizer = RecordNormalizer()
 
     def analyze(self) -> dict[str, Any]:
         """

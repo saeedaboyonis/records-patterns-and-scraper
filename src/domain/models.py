@@ -8,18 +8,8 @@ for validation. All models are immutable and support serialization to JSON.
 from __future__ import annotations
 
 from dataclasses import dataclass, field, asdict
-from datetime import datetime
 from typing import Any, Optional
 from enum import Enum
-
-
-class BookType(str, Enum):
-    """Types of book records."""
-    OFFICIAL_RECORDS = "OFFICIAL_RECORDS"
-    DEED_BOOK = "DEED_BOOK"
-    MORTGAGE_BOOK = "MORTGAGE_BOOK"
-    PLAT_BOOK = "PLAT_BOOK"
-    UNKNOWN = "UNKNOWN"
 
 
 class StandardDocCategory(str, Enum):
@@ -201,32 +191,6 @@ class DateRange:
             "earliest": self.earliest,
             "latest": self.latest,
             "anomalies": self.anomalies,
-        }
-
-
-@dataclass
-class DocTypeDistribution:
-    """
-    Document type distribution statistics.
-    
-    Attributes:
-        top_doc_types: Top N document types by count
-        unique_count: Total unique document types
-        category_mapping: Mapping of doc_type to doc_category
-        inconsistencies: Detected inconsistencies
-    """
-    top_doc_types: list[dict[str, Any]] = field(default_factory=list)
-    unique_count: int = 0
-    category_mapping: dict[str, list[str]] = field(default_factory=dict)
-    inconsistencies: list[dict[str, Any]] = field(default_factory=list)
-
-    def to_dict(self) -> dict[str, Any]:
-        """Convert to dictionary for JSON serialization."""
-        return {
-            "top_doc_types": self.top_doc_types,
-            "unique_count": self.unique_count,
-            "category_mapping": self.category_mapping,
-            "inconsistencies": self.inconsistencies,
         }
 
 

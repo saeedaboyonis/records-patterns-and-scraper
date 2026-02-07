@@ -14,7 +14,7 @@ import logging
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Any, Optional
+from typing import Optional
 
 
 # Global log format
@@ -75,25 +75,6 @@ class StructuredFormatter(logging.Formatter):
             log_data["extra"] = record.extra_data
         
         return json.dumps(log_data)
-
-
-class LoggerAdapter(logging.LoggerAdapter):
-    """
-    Logger adapter that adds context to log messages.
-    
-    Allows adding extra context to all log messages from a logger.
-    """
-    
-    def process(
-        self,
-        msg: str,
-        kwargs: dict[str, Any]
-    ) -> tuple[str, dict[str, Any]]:
-        """Process the log message with context."""
-        extra = kwargs.get("extra", {})
-        extra.update(self.extra)
-        kwargs["extra"] = extra
-        return msg, kwargs
 
 
 _loggers: dict[str, logging.Logger] = {}
@@ -166,69 +147,3 @@ def get_logger(name: str) -> logging.Logger:
         _loggers[name] = logging.getLogger(name)
     
     return _loggers[name]
-
-
-def get_context_logger(
-    name: str,
-    **context: Any
-) -> LoggerAdapter:
-    """
-    Get a logger with context attached.
-    
-    Args:
-        name: Logger name
-        **context: Context key-value pairs to include in all log messages
-        
-    Returns:
-        Logger adapter with context
-    """
-    logger = get_logger(name)
-    return LoggerAdapter(logger, context)
-
-
-class LogContext:
-    """
-    Context manager for temporary logging context.
-    
-    Example:
-        >>> with LogContext(request_id="123"):
-        ...     logger.info("Processing request")
-    """
-    
-    def __init__(self, logger: logging.Logger, **context: Any):
-        """
-        Initialize the log context.
-        
-        Args:
-            logger: Logger to add context to
-            **context: Context key-value pairs
-        """
-        self.logger = logger
-        self.context = context
-        self._old_handlers: list[logging.Handler] = []
-
-    def __enter__(self) -> logging.Logger:
-        """Enter the context."""
-        return LoggerAdapter(self.logger, self.context)
-
-    def __exit__(self, exc_type, exc_val, exc_tb) -> None:
-        """Exit the context."""
-        pass
-
-
-def log_exception(
-    logger: logging.Logger,
-    message: str,
-    exc: Exception,
-    **extra: Any
-) -> None:
-    """
-    Log an exception with full traceback.
-    
-    Args:
-        logger: Logger instance
-        message: Log message
-        exc: Exception to log
-        **extra: Additional context
-    """
-    logger.error(message, exc_info=exc, extra={"extra_data": extra})
