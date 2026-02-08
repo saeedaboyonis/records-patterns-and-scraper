@@ -19,11 +19,11 @@
             "console": "integratedTerminal",
             "args": [
                 "--input",
-                "/workspaces/Dono data engineer assessment/inputs/nc_records_assessment.jsonl",
+                "${workspaceFolder}/inputs/nc_records_assessment.jsonl",
                 "--output",
-                "/workspaces/Dono data engineer assessment/outputs/county_patterns.json"
+                "${workspaceFolder}/outputs/county_patterns.json"
             ],
-            "cwd": "/workspaces/Dono data engineer assessment"
+            "cwd": "${workspaceFolder}"
         },
         {
             "name": "Seminole Scraper Test",
@@ -34,9 +34,9 @@
             "args": [
                 "--test",
                 "--output",
-                "/workspaces/Dono data engineer assessment/outputs/seminole_test_results.json"
+                "${workspaceFolder}/outputs/seminole_test_results.json"
             ],
-            "cwd": "/workspaces/Dono data engineer assessment"
+            "cwd": "${workspaceFolder}"
         },
         {
             "name": "LLM Classifier",
@@ -46,11 +46,11 @@
             "console": "integratedTerminal",
             "args": [
                 "--input",
-                "/workspaces/Dono data engineer assessment/inputs/nc_records_assessment.jsonl",
+                "${workspaceFolder}/inputs/nc_records_assessment.jsonl",
                 "--output",
-                "/workspaces/Dono data engineer assessment/outputs/doc_type_mapping.json"
+                "${workspaceFolder}/outputs/doc_type_mapping.json"
             ],
-            "cwd": "/workspaces/Dono data engineer assessment",
+            "cwd": "${workspaceFolder}",
             "env": {
                 "OPENAI_API_KEY": "${env:OPENAI_API_KEY}"
             }
@@ -63,12 +63,12 @@
             "console": "integratedTerminal",
             "args": [
                 "--input",
-                "/workspaces/Dono data engineer assessment/inputs/nc_records_assessment.jsonl",
+                "${workspaceFolder}/inputs/nc_records_assessment.jsonl",
                 "--output",
-                "/workspaces/Dono data engineer assessment/outputs/doc_type_mapping.json",
+                "${workspaceFolder}/outputs/doc_type_mapping.json",
                 "--dry-run"
             ],
-            "cwd": "/workspaces/Dono data engineer assessment"
+            "cwd": "${workspaceFolder}"
         }
     ]
 }

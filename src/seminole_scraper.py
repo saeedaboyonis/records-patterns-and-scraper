@@ -37,7 +37,7 @@ import random
 import re
 import sys
 import time
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta
 from typing import Any, Iterator, Optional
 from zoneinfo import ZoneInfo
 
@@ -179,9 +179,9 @@ class SeminoleScraper:
         enable chunked mode which uses adaptive sliding window search.
     
     Example:
-        >>> scraper = SeminoleScraper()
-        >>> records = scraper.search_by_name("Smith", chunked=True)
-        >>> print(f"Found {len(records)} unique records")
+        >>> with SeminoleScraper() as scraper:
+        ...     for record in scraper.iter_records_by_name("Smith"):
+        ...         print(record["instrument_number"])
     """
     
     BASE_URL = "https://recording.seminoleclerk.org/DuProcessWebInquiry"
@@ -194,7 +194,6 @@ class SeminoleScraper:
     
     def __init__(
         self,
-        requests_per_second: float = 0.5,
         min_delay: float = 2.0,
         max_delay: float = 5.0,
         max_retries: int = 3,
@@ -206,7 +205,6 @@ class SeminoleScraper:
         Initialize the Seminole County scraper.
         
         Args:
-            requests_per_second: Rate limit for requests
             min_delay: Minimum delay between requests in seconds
             max_delay: Maximum delay between requests (for jitter)
             max_retries: Maximum retry attempts for failed requests
@@ -284,83 +282,6 @@ class SeminoleScraper:
         else:
             delay = random.uniform(self.min_delay, self.max_delay)
         time.sleep(delay)
-
-    def search_by_name(
-        self,
-        name: str,
-        max_results: Optional[int] = None,
-        date_start: str = "1/1/2020",
-        date_end: Optional[str] = None,
-        chunked: bool = True,
-    ) -> list[Record]:
-        """
-        Search for records by name.
-        
-        This is the main public API method. It searches for property
-        records matching the given name and returns normalized records.
-        
-        Args:
-            name: Name to search for (e.g., "Smith John" or "John Smith")
-            max_results: Maximum number of results to return (None for all)
-            date_start: Start date for search range (default: 1/1/1913)
-            date_end: End date for search range (default: today)
-            chunked: If True, use adaptive sliding window to bypass 2000-row cap
-            
-        Returns:
-            List of Record objects matching the search
-            
-        Raises:
-            SeminoleScraperError: If the search fails
-        """
-        self._start_time = time.time()
-        self._request_count = 0
-        self._chunked_mode = chunked
-        
-        logger.info(f"Starting search for name: '{name}' (chunked={chunked})")
-        
-        # Default end date to today
-        if date_end is None:
-            date_end = datetime.now(SEMINOLE_TZ).strftime("%m/%d/%Y")
-        
-        try:
-            # Ensure session is warmed up
-            self._warmup_session()
-            
-            # Parse date strings to datetime for sliding window
-            start_dt = self._parse_date_str(date_start)
-            end_dt = self._parse_date_str(date_end)
-            
-            # Execute search (single or chunked)
-            if chunked:
-                raw_results = self._chunked_search_fast(name, start_dt, end_dt, max_results)
-            else:
-                raw_results = self._search_range(name, start_dt, end_dt)
-            
-            # Deduplicate results
-            unique_results = self._dedupe_results(raw_results)
-            logger.info(f"After deduplication: {len(unique_results)} unique records (from {len(raw_results)} raw)")
-            
-            # Parse results into Records
-            all_records = self._parse_result_rows(unique_results)
-            
-            # Apply max_results limit if specified
-            if max_results and len(all_records) > max_results:
-                all_records = all_records[:max_results]
-            
-            # Log performance metrics
-            elapsed = time.time() - self._start_time
-            records_per_min = (len(all_records) / elapsed * 60) if elapsed > 0 else 0
-            
-            logger.info(
-                f"Search complete. Found {len(all_records)} records in {elapsed:.1f}s "
-                f"({records_per_min:.1f} records/min, {self._request_count} API requests)"
-            )
-            
-            return all_records
-            
-        except Exception as e:
-            logger.error(f"Search failed: {e}")
-            raise SeminoleScraperError(f"Search failed: {e}") from e
 
     def _parse_date_str(self, date_str: str) -> datetime:
         """Parse date string (M/D/YYYY or MM/DD/YYYY) to datetime."""
@@ -510,172 +431,6 @@ class SeminoleScraper:
         
         return results
 
-    def _chunked_search_fast(
-        self,
-        name: str,
-        start_dt: datetime,
-        end_dt: datetime,
-        max_results: Optional[int] = None,
-    ) -> list[dict[str, Any]]:
-        """
-        Adaptive sliding window search to bypass 2000-row cap efficiently.
-        
-        Algorithm:
-        1. Start from end_dt and work backwards towards start_dt
-        2. Use a dynamic span_days that adjusts based on result counts:
-           - If hit cap (2000 rows): shrink span_days by half
-           - If sparse (<400 rows): expand span_days by 2x
-           - If good (400-1999 rows): accept and move window back
-        3. Handle single-day cap cases with warnings
-        
-        Args:
-            name: Name to search for
-            start_dt: Start datetime
-            end_dt: End datetime
-            max_results: Stop early if we reach this many unique results
-            
-        Returns:
-            List of all result dictionaries across windows
-        """
-        all_results: list[dict[str, Any]] = []
-        seen_gins: set[str] = set()
-        unique_count = 0
-        
-        # Metrics tracking
-        total_api_calls = 0
-        rows_per_call: list[int] = []
-        window_sizes: list[int] = []
-        capped_single_days: list[str] = []
-        
-        # Sliding window state
-        span_days = DEFAULT_SPAN_DAYS
-        window_end = end_dt
-        
-        logger.info(
-            f"Starting adaptive sliding window search: "
-            f"{self._format_date_for_api(start_dt)} to {self._format_date_for_api(end_dt)} "
-            f"(initial span: {span_days} days)"
-        )
-        
-        while window_end >= start_dt:
-            # Safety check
-            if self._request_count >= MAX_API_REQUESTS:
-                logger.warning(
-                    f"⚠️  Reached max API requests ({MAX_API_REQUESTS}). "
-                    f"Stopping with {unique_count} unique results."
-                )
-                break
-            
-            # Calculate window_start, clamped to start_dt
-            window_start = window_end - timedelta(days=span_days - 1)
-            if window_start < start_dt:
-                window_start = start_dt
-            
-            # Fetch results for this window
-            results = self._search_range(name, window_start, window_end, log_request=False)
-            result_count = len(results)
-            total_api_calls += 1
-            rows_per_call.append(result_count)
-            window_sizes.append(span_days)
-            
-            # Log progress
-            logger.info(
-                f"Window #{total_api_calls}: [{self._format_date_for_api(window_start)} - "
-                f"{self._format_date_for_api(window_end)}] span={span_days}d → {result_count} rows"
-            )
-            
-            # Decide action based on result count
-            if result_count >= HIGH_THRESHOLD:
-                # Hit cap - shrink window
-                if span_days > MIN_SPAN_DAYS:
-                    new_span = max(MIN_SPAN_DAYS, span_days // 2)
-                    logger.debug(
-                        f"Capped at {result_count} rows, shrinking span: {span_days}d → {new_span}d"
-                    )
-                    span_days = new_span
-                    # Don't move window, retry with smaller span
-                    continue
-                else:
-                    # Already at minimum (1 day) - accept with warning
-                    date_str = self._format_date_for_api(window_end)
-                    capped_single_days.append(date_str)
-                    logger.warning(
-                        f"⚠️  Single day [{date_str}] capped at {result_count} rows. "
-                        f"Results may be incomplete."
-                    )
-                    # Accept results and move on
-                    for row in results:
-                        key = self._get_row_key(row)
-                        if key not in seen_gins:
-                            seen_gins.add(key)
-                            all_results.append(row)
-                            unique_count += 1
-                    
-                    # Move window back by 1 day
-                    window_end = window_start - timedelta(days=1)
-            
-            elif result_count < LOW_THRESHOLD:
-                # Sparse results - accept and expand window for next iteration
-                for row in results:
-                    key = self._get_row_key(row)
-                    if key not in seen_gins:
-                        seen_gins.add(key)
-                        all_results.append(row)
-                        unique_count += 1
-                
-                # Expand span for next iteration
-                new_span = min(MAX_SPAN_DAYS, span_days * 2)
-                if new_span != span_days:
-                    logger.debug(
-                        f"Sparse ({result_count} rows), expanding span: {span_days}d → {new_span}d"
-                    )
-                    span_days = new_span
-                
-                # Move window back
-                window_end = window_start - timedelta(days=1)
-            
-            else:
-                # Good result count (400-1999) - accept and move on
-                for row in results:
-                    key = self._get_row_key(row)
-                    if key not in seen_gins:
-                        seen_gins.add(key)
-                        all_results.append(row)
-                        unique_count += 1
-                
-                # Move window back
-                window_end = window_start - timedelta(days=1)
-            
-            # Early stopping if we have enough results
-            if max_results and unique_count >= max_results:
-                logger.info(
-                    f"Reached max_results ({max_results}) after {total_api_calls} API calls. "
-                    f"Stopping early."
-                )
-                break
-        
-        # Calculate and log metrics
-        avg_rows = sum(rows_per_call) / len(rows_per_call) if rows_per_call else 0
-        min_window = min(window_sizes) if window_sizes else 0
-        max_window = max(window_sizes) if window_sizes else 0
-        
-        logger.info(
-            f"Sliding window search complete:\n"
-            f"  • Total API calls: {total_api_calls}\n"
-            f"  • Unique records: {unique_count}\n"
-            f"  • Avg rows/call: {avg_rows:.1f}\n"
-            f"  • Window size range: {min_window}-{max_window} days\n"
-            f"  • Capped single days: {len(capped_single_days)}"
-        )
-        
-        if capped_single_days:
-            logger.warning(
-                f"⚠️  {len(capped_single_days)} single days hit the 2000-row cap: "
-                f"{capped_single_days[:5]}{'...' if len(capped_single_days) > 5 else ''}"
-            )
-        
-        return all_results
-
     def _get_row_key(self, row: dict[str, Any]) -> str:
         """Get unique key for a row (gin or composite fallback)."""
         gin = row.get("gin")
@@ -690,40 +445,6 @@ class SeminoleScraper:
             str(row.get("file_date", "")),
             str(row.get("direction", "")),
         ])
-
-    def _dedupe_results(
-        self,
-        results: list[dict[str, Any]],
-    ) -> list[dict[str, Any]]:
-        """
-        Deduplicate results using `gin` (global identifier) as primary key.
-        
-        Falls back to composite key if gin is not available:
-        (inst_num, party_name, cross_party_name, file_date, direction)
-        
-        Args:
-            results: List of result dictionaries
-            
-        Returns:
-            List of unique result dictionaries
-        """
-        seen: set[str] = set()
-        unique: list[dict[str, Any]] = []
-        duplicates = 0
-        
-        for row in results:
-            key = self._get_row_key(row)
-            
-            if key not in seen:
-                seen.add(key)
-                unique.append(row)
-            else:
-                duplicates += 1
-        
-        if duplicates > 0:
-            logger.debug(f"Removed {duplicates} duplicate records in final dedupe")
-        
-        return unique
 
     def _parse_response(
         self,
@@ -832,36 +553,6 @@ class SeminoleScraper:
         except Exception as e:
             logger.warning(f"HTML parsing failed: {e}")
             return []
-
-    def _parse_result_rows(
-        self,
-        rows: list[dict[str, Any]],
-    ) -> list[Record]:
-        """
-        Parse all result rows into Record objects.
-        
-        Args:
-            rows: List of result dictionaries from API
-            
-        Returns:
-            List of parsed Record objects
-        """
-        records = []
-        parse_errors = 0
-        
-        for row in rows:
-            try:
-                record = self._row_to_record(row)
-                if record:
-                    records.append(record)
-            except Exception as e:
-                parse_errors += 1
-                logger.debug(f"Failed to parse row: {e}")
-        
-        if parse_errors > 0:
-            logger.warning(f"Failed to parse {parse_errors} rows")
-        
-        return records
 
     def _row_to_record(self, row: dict[str, Any]) -> Optional[Record]:
         """

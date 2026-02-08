@@ -9,7 +9,7 @@ from __future__ import annotations
 
 import json
 from pathlib import Path
-from typing import Any, Generator, Iterator, Optional, Union
+from typing import Any, Generator, Iterator, Union
 
 from ..infra.logging import get_logger
 
@@ -135,78 +135,6 @@ class JsonlReader:
             f"Records: {self._records_read:,}, Errors: {self._errors_encountered:,}"
         )
 
-    def read_filtered(
-        self,
-        filter_func: callable,
-    ) -> Generator[dict[str, Any], None, None]:
-        """
-        Read and yield only records that match the filter function.
-        
-        Args:
-            filter_func: Function that takes a record and returns True to include it
-            
-        Yields:
-            Dictionary representing each matching JSON record
-        """
-        for record in self.read():
-            if filter_func(record):
-                yield record
-
-    def read_sample(
-        self,
-        sample_size: int,
-        strategy: str = "first"
-    ) -> Generator[dict[str, Any], None, None]:
-        """
-        Read a sample of records.
-        
-        Args:
-            sample_size: Maximum number of records to return
-            strategy: Sampling strategy - "first", "random", or "stratified"
-            
-        Yields:
-            Dictionary representing each sampled record
-        """
-        if strategy == "first":
-            count = 0
-            for record in self.read():
-                if count >= sample_size:
-                    break
-                yield record
-                count += 1
-        else:
-            # For other strategies, collect all records first
-            # (not recommended for very large files)
-            import random
-            all_records = list(self.read())
-            
-            if strategy == "random":
-                sample = random.sample(
-                    all_records,
-                    min(sample_size, len(all_records))
-                )
-                for record in sample:
-                    yield record
-
-    def count_records(self) -> int:
-        """
-        Count total records without loading them all into memory.
-        
-        Returns:
-            Total number of valid records in the file
-        """
-        count = 0
-        with open(self.file_path, "r", encoding=self.encoding) as f:
-            for line in f:
-                line = line.strip()
-                if line:
-                    try:
-                        json.loads(line)
-                        count += 1
-                    except json.JSONDecodeError:
-                        continue
-        return count
-
     @property
     def records_read(self) -> int:
         """Get the number of records successfully read."""
@@ -216,22 +144,3 @@ class JsonlReader:
     def errors_encountered(self) -> int:
         """Get the number of errors encountered."""
         return self._errors_encountered
-
-    def get_stats(self) -> dict[str, Any]:
-        """
-        Get reading statistics.
-        
-        Returns:
-            Dictionary with reading statistics
-        """
-        return {
-            "file_path": str(self.file_path),
-            "records_read": self._records_read,
-            "errors_encountered": self._errors_encountered,
-            "error_rate": (
-                self._errors_encountered / 
-                (self._records_read + self._errors_encountered)
-                if (self._records_read + self._errors_encountered) > 0
-                else 0.0
-            ),
-        }

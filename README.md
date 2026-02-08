@@ -46,7 +46,6 @@ assessment_solution/
 │   ├── pattern_analyzer.py      # Task 1: County pattern analysis
 │   ├── seminole_scraper.py      # Task 2: Web scraper
 │   ├── llm_classifier.py        # Bonus: LLM document classification
-│   ├── utils.py                 # Common utilities
 │   │
 │   ├── domain/                  # Domain models & business logic
 │   │   ├── models.py            # Data classes (Record, CountyStats, etc.)
@@ -57,9 +56,7 @@ assessment_solution/
 │   │   └── json_writer.py       # JSON writer with atomic writes
 │   │
 │   └── infra/                   # Infrastructure components
-│       ├── logging.py           # Structured logging setup
-│       ├── http_client.py       # HTTP client with retries
-│       └── rate_limit.py        # Rate limiting utilities
+│       └── logging.py           # Structured logging setup
 │
 └── outputs/                     # Generated output files
     ├── county_patterns.json
@@ -82,11 +79,8 @@ assessment_solution/
 | `JsonlReader` | Stream JSONL files without loading into memory |
 | `JsonWriter` | Write JSON with atomic operations |
 | `Record` | Immutable property record data class |
-| `RecordNormalizer` | Normalize raw data to standard format |
 | `CountyStatsAggregator` | Aggregate statistics during streaming |
 | `PatternDetector` | Detect regex patterns in values |
-| `HttpClient` | HTTP requests with retries and session management |
-| `RateLimiter` | Token bucket rate limiting |
 | `SeminoleScraper` | Seminole County website scraper |
 | `OllamaMapper` | Local LLM-based document classification |
 
@@ -1310,9 +1304,9 @@ The architecture supports:
 ### Scraper Assumptions
 
 1. **Public Access**: Website is publicly accessible
-2. **Table Structure**: Results are in HTML tables
-3. **ASP.NET**: Website uses standard ASP.NET postback mechanism
-4. **Rate Limiting**: 0.5 req/sec is respectful for the server
+2. **Vue.js SPA**: Website uses a Vue.js frontend with a JSON API backend
+3. **CriteriaSearch API**: Results returned as JSON via `/Home/CriteriaSearch` endpoint
+4. **Rate Limiting**: 1-2 second delay between API calls is respectful for the server
 
 ### LLM Assumptions
 

@@ -1,7 +1,7 @@
 """Domain models and normalizers for property records."""
 
 from .models import Record, CountyStats, InstrumentPattern, BookPattern, DateRange
-from .normalizers import RecordNormalizer, NameNormalizer, DateNormalizer
+from .normalizers import NameNormalizer, DateNormalizer
 
 __all__ = [
     "Record",
@@ -9,7 +9,6 @@ __all__ = [
     "InstrumentPattern",
     "BookPattern",
     "DateRange",
-    "RecordNormalizer",
     "NameNormalizer",
     "DateNormalizer",
 ]
